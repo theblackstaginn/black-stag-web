@@ -9,6 +9,7 @@ on:
       - styles.css
       - sitemap.xml
       - scripts/verify-privacy-notice.mjs
+      - scripts/verify-sitewide-meta.mjs
       - scripts/verify-privacy-visual.mjs
       - .github/workflows/verify-privacy-notice.yml
   workflow_dispatch:
