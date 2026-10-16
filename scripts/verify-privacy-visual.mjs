@@ -23,7 +23,15 @@ try{
     const width=await page.evaluate(()=>({actual:document.documentElement.scrollWidth,viewport:innerWidth}));
     assert(width.actual<=width.viewport+5,label+": unwanted horizontal scroll "+JSON.stringify(width));
     await page.screenshot({path:"privacy-qa/"+label+"-privacy.png",fullPage:true});
-    await page.locator(".privacy-panel").screenshot({path:"privacy-qa/"+label+"-full-notice.png"});
+    // Verify that content below the fold really scrolls within #page.
+    await page.locator("#privacy-meta").scrollIntoViewIfNeeded();
+    const middle=await page.locator("#privacy-meta").boundingBox();
+    assert(middle && middle.y>=0 && middle.y<viewport.height,label+": tracking disclosure cannot be scrolled into view");
+    await page.screenshot({path:"privacy-qa/"+label+"-tracking-section.png"});
+    await page.locator(".privacy-return a").scrollIntoViewIfNeeded();
+    const bottom=await page.locator(".privacy-return a").boundingBox();
+    assert(bottom && bottom.y>=0 && bottom.y<viewport.height,label+": policy end cannot be reached");
+    await page.screenshot({path:"privacy-qa/"+label+"-notice-bottom.png"});
     await page.goto(base+"/website-checkup.html",{waitUntil:"domcontentloaded"});
     assert(await page.locator(".checkup-privacy-note a[href='/privacy.html']").isVisible(),
       label+": notice link hidden beside form");
