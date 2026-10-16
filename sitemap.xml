@@ -99,4 +99,11 @@
     <priority>0.5</priority>
   </url>
 
+  <url>
+    <loc>https://blackstagweb.com/privacy.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
 </urlset>
