@@ -24,6 +24,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css?v=2" />
 
+  <!-- Meta Pixel: Black Stag Web Design -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '3219951841530933');
+    fbq('track', 'PageView');
+  </script>
+
   <style>
     .checkup-page .hero {
       padding-top: 30px;
@@ -240,6 +254,11 @@
 </head>
 
 <body class="checkup-page">
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=3219951841530933&ev=PageView&noscript=1"
+      alt="" />
+  </noscript>
   <div id="page">
     <header class="site-header">
       <div class="wrap header-inner">
@@ -529,6 +548,11 @@
           status.textContent = result.message || "Thanks. Your request is in.";
           status.classList.add("is-success");
           button.textContent = "Request sent";
+
+          // Conversion signal only. Never send form fields or contact details to Meta.
+          if (typeof window.fbq === "function") {
+            window.fbq("track", "Lead");
+          }
         } catch (error) {
           status.textContent = error instanceof Error
             ? error.message
