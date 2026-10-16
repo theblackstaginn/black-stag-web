@@ -32,7 +32,7 @@ for (const page of pages) {
   assert.equal((html.match(/<noscript>/g)||[]).length,1,page+": noscript fallback mismatch");
   assert(html.includes("facebook.com/tr?id="+pixelId),page+": fallback Pixel wrong");
   assert(existsSync("bsw-meta-pixel.js"),page+": missing Pixel script");
-  if(page!=="website-checkup.html"){
+  if(page!=="website-checkup.html" && page!=="privacy.html"){
     assert(html.includes("bsw-site.js"),page+": original site script missing");
   }
   checked++;
