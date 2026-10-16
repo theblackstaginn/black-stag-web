@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Website Checkup for North Georgia Small Businesses | Black Stag</title>
+  <meta name="description" content="Request a no-pressure website checkup from Black Stag Web Design. Get a practical look at mobile usability, site ownership, and the customer actions your website makes easy or difficult." />
+  <link rel="canonical" href="https://blackstagweb.com/website-checkup.html" />
+  <meta name="theme-color" content="#050609" />
+  <link rel="icon" type="image/webp" href="/assets/BSWD-icon.webp" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/BSWD-apple-touch-icon.png" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <meta property="og:site_name" content="Black Stag Web Design" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Website Checkup for North Georgia Small Businesses | Black Stag" />
+  <meta property="og:description" content="A practical, no-pressure website checkup focused on mobile usability, ownership, and clear customer actions." />
+  <meta property="og:url" content="https://blackstagweb.com/website-checkup.html" />
+  <meta property="og:image" content="https://blackstagweb.com/stag-studio/leaf-web.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=2" />
+
+  <style>
+    .checkup-page .hero {
+      padding-top: 30px;
+    }
+
+    .checkup-page .hero-inner {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    .checkup-kicker {
+      margin: 0 auto 12px;
+      color: var(--accent);
+      font-size: .86rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .checkup-lede {
+      max-width: 46rem;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 1.05rem;
+    }
+
+    .checkup-points {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      max-width: 900px;
+      margin: 24px auto 0;
+    }
+
+    .checkup-point,
+    .checkup-card {
+      background: rgba(13, 17, 24, .93);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .checkup-point {
+      padding: 18px 16px;
+    }
+
+    .checkup-point h2 {
+      margin: 0 0 8px;
+      font-size: 1rem;
+    }
+
+    .checkup-point p {
+      margin: 0;
+      font-size: .92rem;
+    }
+
+    .checkup-grid {
+      display: grid;
+      grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+      gap: 20px;
+      align-items: start;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .checkup-card {
+      padding: 22px;
+      text-align: left;
+    }
+
+    .checkup-card h2,
+    .checkup-card h3 {
+      text-align: center;
+    }
+
+    .checkup-card ul {
+      margin: 0;
+      padding-left: 1.25rem;
+      color: var(--muted);
+    }
+
+    .checkup-card li {
+      margin: .58rem 0;
+    }
+
+    .lead-form {
+      display: grid;
+      gap: 14px;
+    }
+
+    .field {
+      display: grid;
+      gap: 7px;
+    }
+
+    .field label,
+    .consent-row {
+      color: var(--text);
+      font-size: .92rem;
+    }
+
+    .field input,
+    .field select,
+    .field textarea {
+      width: 100%;
+      border: 1px solid rgba(217, 178, 107, .28);
+      border-radius: 12px;
+      background: rgba(5, 6, 9, .88);
+      color: var(--text);
+      padding: 12px 13px;
+      font: inherit;
+      font-weight: 600;
+      outline: none;
+    }
+
+    .field textarea {
+      min-height: 132px;
+      resize: vertical;
+    }
+
+    .field input:focus,
+    .field select:focus,
+    .field textarea:focus {
+      border-color: rgba(217, 178, 107, .76);
+      box-shadow: 0 0 0 3px rgba(217, 178, 107, .12);
+    }
+
+    .field-help {
+      color: var(--muted);
+      font-size: .78rem;
+      font-weight: 600;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 12px;
+    }
+
+    .consent-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 9px;
+      line-height: 1.4;
+    }
+
+    .consent-row input {
+      margin-top: .2rem;
+      flex: 0 0 auto;
+    }
+
+    .form-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .form-actions .btn {
+      border-bottom: 1px solid rgba(247, 224, 182, .28);
+    }
+
+    .form-status {
+      min-height: 1.5rem;
+      margin: 0;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    .form-status.is-success {
+      color: #d8e8c7;
+    }
+
+    .form-status.is-error {
+      color: #f1c2b5;
+    }
+
+    .hp-field {
+      position: absolute !important;
+      left: -10000px !important;
+      width: 1px !important;
+      height: 1px !important;
+      overflow: hidden !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+    }
+
+    .trust-note {
+      margin: 16px auto 0;
+      max-width: 56rem;
+      font-size: .82rem;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 18px;
+    }
+
+    @media (max-width: 760px) {
+      .checkup-points,
+      .checkup-grid,
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+
+      .checkup-card {
+        padding: 18px 15px;
+      }
+
+      .form-actions {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+
+<body class="checkup-page">
+  <div id="page">
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <span class="brand-main">Black Stag Web Design</span>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="/">Home</a>
+          <a href="/#work">Work</a>
+          <a href="/ownership.html">Ownership</a>
+          <a href="/faq.html">FAQ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <img
+        src="/stag-studio/bsw-logo.png"
+        alt="Black Stag Web Design logo"
+        class="brand-logo"
+        loading="eager"
+        decoding="async"
+      />
+
+      <section class="hero">
+        <div class="wrap hero-inner">
+          <div class="hero-copy">
+            <p class="checkup-kicker">Website checkup</p>
+            <h1>Is your website helping customers take the next step?</h1>
+            <p class="checkup-lede">
+              Send me your site and I’ll take a practical look at the things that matter most on a phone:
+              what customers see first, how easily they can contact you, and whether your website feels like
+              an asset you control.
+            </p>
+
+            <div class="checkup-points" aria-label="What the checkup covers">
+              <article class="checkup-point">
+                <h2>Mobile clarity</h2>
+                <p>Can a customer understand what you do and what to tap next without hunting for it?</p>
+              </article>
+
+              <article class="checkup-point">
+                <h2>Ownership</h2>
+                <p>Are the domain, files, hosting, and platform relationship clear enough for you to stay in control?</p>
+              </article>
+
+              <article class="checkup-point">
+                <h2>Customer actions</h2>
+                <p>Are calls, directions, inquiries, menus, services, or other important actions easy to reach?</p>
+              </article>
+            </div>
+
+            <p class="trust-note">
+              No pressure and no generic agency pitch. If I see something useful, I’ll explain it in plain English.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap checkup-grid">
+          <article class="checkup-card">
+            <h2>What happens next</h2>
+            <ul>
+              <li>You send the current website, social page, or a quick description of what you need.</li>
+              <li>I review the practical customer-facing issues first.</li>
+              <li>If a rebuild or fix makes sense, I can give you a clear quote with no subscription requirement.</li>
+              <li>If the site is already doing its job well, I’ll tell you that too.</li>
+            </ul>
+
+            <h3 style="margin-top:1.4rem;">Black Stag’s approach</h3>
+            <p>
+              I build primarily custom-coded, mobile-first websites for small businesses. After a paid project is complete,
+              the client owns the site files and controls the domain and hosting.
+            </p>
+
+            <p>
+              <a href="/ownership.html">Read the ownership guide</a>
+              or
+              <a href="/#work">see selected work</a>.
+            </p>
+          </article>
+
+          <article class="checkup-card">
+            <h2>Request your website checkup</h2>
+
+            <form id="checkupForm" class="lead-form" novalidate>
+              <input type="hidden" id="formStartedAt" name="form_started_at" value="" />
+
+              <div class="hp-field" aria-hidden="true">
+                <label for="websiteField">Website</label>
+                <input id="websiteField" name="website" type="text" tabindex="-1" autocomplete="off" />
+              </div>
+
+              <div class="form-row">
+                <div class="field">
+                  <label for="name">Your name *</label>
+                  <input id="name" name="name" type="text" autocomplete="name" maxlength="120" required />
+                </div>
+
+                <div class="field">
+                  <label for="businessName">Business name *</label>
+                  <input id="businessName" name="business_name" type="text" autocomplete="organization" maxlength="160" required />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" autocomplete="email" maxlength="254" />
+                </div>
+
+                <div class="field">
+                  <label for="phone">Phone</label>
+                  <input id="phone" name="phone" type="tel" autocomplete="tel" maxlength="40" />
+                </div>
+              </div>
+
+              <p class="field-help">Enter at least one: email or phone.</p>
+
+              <div class="field">
+                <label for="websiteUrl">Current website or social page</label>
+                <input
+                  id="websiteUrl"
+                  name="website_url"
+                  type="url"
+                  inputmode="url"
+                  maxlength="500"
+                  placeholder="https://..."
+                />
+              </div>
+
+              <div class="form-row">
+                <div class="field">
+                  <label for="primaryNeed">What are you dealing with?</label>
+                  <select id="primaryNeed" name="primary_need">
+                    <option value="">Choose one</option>
+                    <option>New website</option>
+                    <option>Outdated website</option>
+                    <option>Mobile problems</option>
+                    <option>Ownership / platform issues</option>
+                    <option>Not sure yet</option>
+                  </select>
+                </div>
+
+                <div class="field">
+                  <label for="contactPreference">Best way to contact you *</label>
+                  <select id="contactPreference" name="contact_preference" required>
+                    <option value="either">Either email or phone</option>
+                    <option value="email">Email</option>
+                    <option value="phone">Phone call</option>
+                    <option value="text">Text</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="message">Anything you want me to know?</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  maxlength="3000"
+                  placeholder="What feels broken, outdated, confusing, or missing?"
+                ></textarea>
+              </div>
+
+              <label class="consent-row" for="consent">
+                <input id="consent" name="consent_to_contact" type="checkbox" required />
+                <span>I agree that Black Stag Web Design may contact me about this website checkup request.</span>
+              </label>
+
+              <div class="form-actions">
+                <button id="submitButton" class="btn btn-primary" type="submit">Send request</button>
+                <span class="field-help">Your information is used to respond to this request.</span>
+              </div>
+
+              <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <p class="section-intro">
+            Black Stag Web Design serves small businesses across North Georgia with practical,
+            mobile-first websites built around clear customer actions and client ownership.
+          </p>
+          <a class="back-link" href="/">Back to Black Stag Web Design</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>&copy; <span id="year"></span> Black Stag Web Design. All rights reserved.</p>
+        <p>Custom-coded websites you actually own.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    (() => {
+      "use strict";
+
+      const ENDPOINT = "https://lpjpuedylongafgqbwjh.supabase.co/functions/v1/black-stag-lead-intake";
+      const form = document.getElementById("checkupForm");
+      const status = document.getElementById("formStatus");
+      const button = document.getElementById("submitButton");
+      const started = document.getElementById("formStartedAt");
+
+      document.getElementById("year").textContent = new Date().getFullYear();
+      started.value = String(Date.now());
+
+      const qs = new URLSearchParams(window.location.search);
+      const tracking = {
+        utm_source: qs.get("utm_source") || null,
+        utm_medium: qs.get("utm_medium") || null,
+        utm_campaign: qs.get("utm_campaign") || null,
+        utm_content: qs.get("utm_content") || null,
+        utm_term: qs.get("utm_term") || null,
+        fbclid: qs.get("fbclid") || null,
+      };
+
+      form.addEventListener("submit", async event => {
+        event.preventDefault();
+        status.className = "form-status";
+
+        if (!form.reportValidity()) return;
+
+        const data = new FormData(form);
+        const email = String(data.get("email") || "").trim();
+        const phone = String(data.get("phone") || "").trim();
+        const preference = String(data.get("contact_preference") || "either");
+
+        if (!email && !phone) {
+          status.textContent = "Please enter an email address or phone number.";
+          status.classList.add("is-error");
+          return;
+        }
+
+        if (preference === "email" && !email) {
+          status.textContent = "Please enter an email address for email follow-up.";
+          status.classList.add("is-error");
+          return;
+        }
+
+        if ((preference === "phone" || preference === "text") && !phone) {
+          status.textContent = "Please enter a phone number for that contact method.";
+          status.classList.add("is-error");
+          return;
+        }
+
+        const payload = {
+          name: String(data.get("name") || "").trim(),
+          business_name: String(data.get("business_name") || "").trim(),
+          email: email || null,
+          phone: phone || null,
+          website_url: String(data.get("website_url") || "").trim() || null,
+          primary_need: String(data.get("primary_need") || "").trim() || null,
+          contact_preference: preference,
+          message: String(data.get("message") || "").trim() || null,
+          consent_to_contact: data.get("consent_to_contact") === "on",
+          website: String(data.get("website") || ""),
+          form_started_at: Number(data.get("form_started_at") || 0),
+          landing_path: window.location.pathname,
+          ...tracking,
+        };
+
+        button.disabled = true;
+        button.textContent = "Sending…";
+        status.textContent = "Sending your request…";
+
+        try {
+          const response = await fetch(ENDPOINT, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload),
+          });
+
+          const result = await response.json().catch(() => null);
+
+          if (!response.ok || !result?.ok) {
+            throw new Error(result?.message || "Could not send your request.");
+          }
+
+          form.reset();
+          started.value = String(Date.now());
+          status.textContent = result.message || "Thanks. Your request is in.";
+          status.classList.add("is-success");
+          button.textContent = "Request sent";
+        } catch (error) {
+          status.textContent = error instanceof Error
+            ? error.message
+            : "Could not send your request. Please try again.";
+          status.classList.add("is-error");
+          button.disabled = false;
+          button.textContent = "Send request";
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
