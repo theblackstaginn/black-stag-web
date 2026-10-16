@@ -23,6 +23,7 @@ try{
     const width=await page.evaluate(()=>({actual:document.documentElement.scrollWidth,viewport:innerWidth}));
     assert(width.actual<=width.viewport+5,label+": unwanted horizontal scroll "+JSON.stringify(width));
     await page.screenshot({path:"privacy-qa/"+label+"-privacy.png",fullPage:true});
+    await page.locator(".privacy-panel").screenshot({path:"privacy-qa/"+label+"-full-notice.png"});
     await page.goto(base+"/website-checkup.html",{waitUntil:"domcontentloaded"});
     assert(await page.locator(".checkup-privacy-note a[href='/privacy.html']").isVisible(),
       label+": notice link hidden beside form");
