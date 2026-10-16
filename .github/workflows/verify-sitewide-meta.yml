@@ -1,0 +1,34 @@
+name: Verify Sitewide Meta Pixel
+on:
+  push:
+    branches:
+      - feat/sitewide-meta-pixel-20261016
+      - main
+    paths:
+      - bsw-meta-pixel.js
+      - website-checkup.html
+      - '*.html'
+      - scripts/verify-sitewide-meta.mjs
+      - .github/workflows/verify-sitewide-meta.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout exact pushed commit
+        uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check JavaScript syntax
+        run: |
+          node --check bsw-meta-pixel.js
+          node --check scripts/verify-sitewide-meta.mjs
+      - name: Verify all Meta Pixel registrations and Lead conversion
+        run: node scripts/verify-sitewide-meta.mjs
