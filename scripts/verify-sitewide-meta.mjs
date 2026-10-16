@@ -20,6 +20,7 @@ const pages = [
   "southern-pressure-washing-case-study.html",
   "stag-stone-case-study.html",
   "website-checkup.html",
+  "privacy.html",
 ];
 let checked=0;
 for (const page of pages) {
