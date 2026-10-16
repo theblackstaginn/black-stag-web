@@ -892,3 +892,15 @@ p {
 @media (pointer: fine) {
   .bsw-ptr { display: none; }
 }
+
+
+/* Privacy notice access on every page, including compact mobile footers. */
+.privacy-footer-link {
+  margin: 12px auto 16px;
+  padding: 0 10px;
+  text-align: center;
+  font-size: .85rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.checkup-privacy-note { margin: 10px 0 18px; line-height: 1.55; }

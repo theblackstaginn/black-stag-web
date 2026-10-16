@@ -1,0 +1,53 @@
+name: Verify BSWD Privacy and Tracking Notice
+on:
+  push:
+    branches:
+      - docs/privacy-tracking-notice-20261016
+      - main
+    paths:
+      - '*.html'
+      - styles.css
+      - sitemap.xml
+      - scripts/verify-privacy-notice.mjs
+      - scripts/verify-sitewide-meta.mjs
+      - scripts/verify-privacy-visual.mjs
+      - .github/workflows/verify-privacy-notice.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  privacy-check:
+    name: Audit wording, links and desktop/mobile views
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify privacy notice and protect conversion flow
+        run: |
+          node scripts/verify-privacy-notice.mjs
+          node scripts/verify-sitewide-meta.mjs
+      - name: Set up browser
+        run: |
+          npm install --no-package-lock --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Render notice on mobile and desktop without Meta analytics traffic
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/privacy-server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID" || true' EXIT
+          node scripts/verify-privacy-visual.mjs
+      - name: Upload visual verification
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: black-stag-privacy-preview
+          path: privacy-qa/
+          retention-days: 7
+          if-no-files-found: warn
