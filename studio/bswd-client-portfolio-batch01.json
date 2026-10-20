@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "batch": "BSWD client portfolio metadata batch 01",
+  "production_studio": "Lace & Leather Arcane Studio",
+  "rights_statement_url": "https://blackstagweb.com/ownership.html",
+  "scope": "Website presentation images for client projects shown in the Black Stag Web Design portfolio. Client/project remains the rights holder; Lace & Leather Arcane Studio receives production/origin credit. Existing conflicting rights or authenticity metadata causes a hold.",
+  "files": [
+    {
+      "path": "stag-studio/IMG_9966.jpeg",
+      "project": "Cavalier Country Farm",
+      "rights": "Copyright 2026 Cavalier Country Farm",
+      "website": "https://cavaliercountry.farm",
+      "description": "Cavalier Country Farm website desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/IMG_9965.png",
+      "project": "Cavalier Country Farm",
+      "rights": "Copyright 2026 Cavalier Country Farm",
+      "website": "https://cavaliercountry.farm",
+      "description": "Cavalier Country Farm website mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/ck-web.webp",
+      "project": "Clearview Kennels",
+      "rights": "Copyright 2026 Clearview Kennels",
+      "website": "https://clearviewkennels.com/",
+      "description": "Clearview Kennels website desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/ck-mobile.webp",
+      "project": "Clearview Kennels",
+      "rights": "Copyright 2026 Clearview Kennels",
+      "website": "https://clearviewkennels.com/",
+      "description": "Clearview Kennels website mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/stag-stone-web.PNG",
+      "project": "Stag & Stone Coffee and Bakehouse",
+      "rights": "Copyright 2026 Stag & Stone Coffee and Bakehouse",
+      "website": "https://stagandstonecoffee.com/",
+      "description": "Stag & Stone Coffee and Bakehouse website desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/stag-stone-mobile.PNG",
+      "project": "Stag & Stone Coffee and Bakehouse",
+      "rights": "Copyright 2026 Stag & Stone Coffee and Bakehouse",
+      "website": "https://stagandstonecoffee.com/",
+      "description": "Stag & Stone Coffee and Bakehouse website mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/spw-web.png",
+      "project": "Southern Pressure Washing",
+      "rights": "Copyright 2026 Southern Pressure Washing",
+      "website": "https://southernpresswashing.com",
+      "description": "Southern Pressure Washing website desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/spw-mobile.png",
+      "project": "Southern Pressure Washing",
+      "rights": "Copyright 2026 Southern Pressure Washing",
+      "website": "https://southernpresswashing.com",
+      "description": "Southern Pressure Washing website mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/lace-leather-web.png",
+      "project": "Lace & Leather Arcane",
+      "rights": "Copyright 2026 Lace & Leather Arcane",
+      "website": "https://laceleatherarcane.com",
+      "description": "Lace & Leather Arcane website desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/lace-leather-mobile.png",
+      "project": "Lace & Leather Arcane",
+      "rights": "Copyright 2026 Lace & Leather Arcane",
+      "website": "https://laceleatherarcane.com",
+      "description": "Lace & Leather Arcane website mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/leaf-web.png",
+      "project": "Leaf Grocery & Deli",
+      "rights": "Copyright 2026 Leaf Grocery & Deli",
+      "website": "https://leafdeli.com/",
+      "description": "Leaf Grocery & Deli website desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/leaf-mobile.png",
+      "project": "Leaf Grocery & Deli",
+      "rights": "Copyright 2026 Leaf Grocery & Deli",
+      "website": "https://leafdeli.com/",
+      "description": "Leaf Grocery & Deli website mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    }
+  ]
+}
