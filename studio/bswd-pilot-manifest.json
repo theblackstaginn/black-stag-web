@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "project": "Black Stag Web Design",
+  "production_studio": "Lace & Leather Arcane Studio",
+  "rights": "Copyright 2026 Black Stag Web Design",
+  "rights_url": "https://blackstagweb.com/ownership.html",
+  "scope": "Pilot only: clearly Black Stag Web Design-owned brand artwork. Existing provenance or conflicting creator/rights metadata is preserved and held for review.",
+  "files": [
+    {
+      "path": "assets/BSWD-apple-touch-icon.png",
+      "rights_basis": "Black Stag Web Design brand artwork; L&L Studio production credit",
+      "description": "Black Stag Web Design apple touch icon; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "assets/BSWD-icon.webp",
+      "rights_basis": "Black Stag Web Design brand artwork; L&L Studio production credit",
+      "description": "Black Stag Web Design brand icon; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/bsw-logo.png",
+      "rights_basis": "Black Stag Web Design brand artwork; L&L Studio production credit",
+      "description": "Black Stag Web Design logo artwork; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "copper-btn.png",
+      "rights_basis": "Black Stag Web Design interface artwork; L&L Studio production credit",
+      "description": "Black Stag Web Design copper button artwork; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "copper-btn.webp",
+      "rights_basis": "Black Stag Web Design interface artwork; L&L Studio production credit",
+      "description": "Black Stag Web Design copper button artwork; produced and prepared by Lace & Leather Arcane Studio."
+    }
+  ]
+}
