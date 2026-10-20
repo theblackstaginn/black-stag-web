@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "pilot": "BSWD metadata provenance pilot",
+  "project_owner": "Black Stag Web Design",
+  "production_studio": "Lace & Leather Arcane Studio",
+  "total": 5,
+  "verified_metadata_only": 4,
+  "held_for_review": 1,
+  "updated_paths": [
+    "assets/BSWD-apple-touch-icon.png",
+    "assets/BSWD-icon.webp",
+    "copper-btn.png",
+    "copper-btn.webp"
+  ],
+  "live_site_code_changed": false,
+  "files": [
+    {
+      "path": "assets/BSWD-apple-touch-icon.png",
+      "source_sha256": "9c9d9e745d8c43011a36ae45c002b6d0b7d2792614f9acb7992dd47499642abf",
+      "rights_basis": "Black Stag Web Design brand artwork; L&L Studio production credit",
+      "format": "PNG",
+      "dimensions": [
+        180,
+        180
+      ],
+      "pixel_sha256": "a90114f3b804434b6677e3f13f92dbea85060bb42f3ad79e765861c44f530b50",
+      "encoded_picture_sha256": "c93495cee02e2f2e6dfef8c6cb1571e230100ec430b2a45dc37a7a37f540b394",
+      "status": "verified_metadata_only",
+      "output_sha256": "9f607b90166d72362dfecd6d3d8a233b4ff4381902d26a29f97af6d4f58f2808",
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "studio_credit": "Lace & Leather Arcane Studio (artwork production and preparation)"
+    },
+    {
+      "path": "assets/BSWD-icon.webp",
+      "source_sha256": "08c7c89405cb9721e540da3f0b2125baf44489c78c9a0b711081cb628ec5dd3f",
+      "rights_basis": "Black Stag Web Design brand artwork; L&L Studio production credit",
+      "format": "WEBP",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "pixel_sha256": "5a4606b6e2b700fa49b75eccdb2cfd75dff5300b66b225d9a5f606a335f9f2b1",
+      "encoded_picture_sha256": "b6757c37bb50021224352f2d6f4a74c9c86cd0e02cce33ee03f018717ab01fdd",
+      "status": "verified_metadata_only",
+      "output_sha256": "260e50a99ae33e4cdc6d30404cf22a27bf8445a9298c2a47fe7929710a8dcd65",
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "studio_credit": "Lace & Leather Arcane Studio (artwork production and preparation)"
+    },
+    {
+      "path": "stag-studio/bsw-logo.png",
+      "source_sha256": "a09f08860d3df506b4117e2198fe3e4cb8a595cc0690354a4cd0c1aec7c4dc3e",
+      "rights_basis": "Black Stag Web Design brand artwork; L&L Studio production credit",
+      "status": "held_for_review",
+      "reason": "unsupported_or_unreadable",
+      "detail": "ValueError",
+      "output_sha256": "a09f08860d3df506b4117e2198fe3e4cb8a595cc0690354a4cd0c1aec7c4dc3e"
+    },
+    {
+      "path": "copper-btn.png",
+      "source_sha256": "1abcd4480e3b47190ced94f77225d1bbb75d7fb4c90192480c9e05d1ab938dc6",
+      "rights_basis": "Black Stag Web Design interface artwork; L&L Studio production credit",
+      "format": "PNG",
+      "dimensions": [
+        1153,
+        501
+      ],
+      "pixel_sha256": "125bf427adff77c577c44688b123e98f4040d1c5c806edf0cd5c3fbb80bd2648",
+      "encoded_picture_sha256": "1fa1cd80e869e1eefd75e41f40bd6b7670633d0ac9384994fdb038f0804b7af9",
+      "status": "verified_metadata_only",
+      "output_sha256": "ae526b7d1a8afeae5a61223270f6bc67aaf432ff6a202f5183a242dcad6d1229",
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "studio_credit": "Lace & Leather Arcane Studio (artwork production and preparation)"
+    },
+    {
+      "path": "copper-btn.webp",
+      "source_sha256": "4b9854d1511da76785e48c768d4bbafb38f635f729ec1bb087438e6c0f831ab2",
+      "rights_basis": "Black Stag Web Design interface artwork; L&L Studio production credit",
+      "format": "WEBP",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "pixel_sha256": "e6fc9f2a315f73031a34da9ca11338c35e81d4f3f170e9887953a017024ff69d",
+      "encoded_picture_sha256": "cdb5b466eb9a24126d01e42c393e22d89f135d7687ce74c38beab0e27022ca98",
+      "status": "verified_metadata_only",
+      "output_sha256": "b5971288d3f0cc4bdfc03634c851c9f2ecd2ed2d76bd1bb164a1aaae00506e39",
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "studio_credit": "Lace & Leather Arcane Studio (artwork production and preparation)"
+    }
+  ]
+}
