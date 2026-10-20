@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "batch": "BSWD legacy concept provenance batch 01",
+  "production_studio": "Lace & Leather Arcane Studio",
+  "rights_statement_url": "https://blackstagweb.com/ownership.html",
+  "scope": "Legacy Black Stag Web Design portfolio concept presentation images. Historical portfolio copy identifies all five projects as concept demos. Black Stag Web Design retains rights to the presentation artwork; Lace & Leather Arcane Studio receives production/origin credit.",
+  "files": [
+    {
+      "path": "stag-studio/2-wolves-web.png",
+      "project": "2 Wolves Apothecary Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "description": "2 Wolves Apothecary concept website desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/2-wolves-mobile.png",
+      "project": "2 Wolves Apothecary Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "description": "2 Wolves Apothecary concept website mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/fh-coffee-web.png",
+      "project": "Farmhouse Coffee Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "description": "Farmhouse Coffee concept website desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/fh-coffee-mobile.png",
+      "project": "Farmhouse Coffee Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "description": "Farmhouse Coffee concept website mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/helen-hat-web.png",
+      "project": "Helen Hat Co. Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "description": "Helen Hat Co. concept website desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/helen-hat-mobile.png",
+      "project": "Helen Hat Co. Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "description": "Helen Hat Co. concept website mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/honey-hill-web.png",
+      "project": "Honey on the Hill Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "description": "Honey on the Hill concept website desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/honey-hill-mobile.png",
+      "project": "Honey on the Hill Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "description": "Honey on the Hill concept website mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/revival-web.png",
+      "project": "Revival Gifts & Apparel Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "description": "Revival Gifts & Apparel concept website desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/revival-mobile.png",
+      "project": "Revival Gifts & Apparel Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "description": "Revival Gifts & Apparel concept website mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    }
+  ]
+}
