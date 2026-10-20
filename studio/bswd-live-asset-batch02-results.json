@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "batch": "BSWD live asset provenance batch 02",
+  "production_studio": "Lace & Leather Arcane Studio",
+  "total": 4,
+  "verified": 4,
+  "already_credited": 0,
+  "held_for_review": 0,
+  "updated_paths": [
+    "stag-studio/web-bg.png",
+    "stag-studio/mobile-bg.png",
+    "stag-studio/lwa-web.webp",
+    "stag-studio/lwa-mobile.webp"
+  ],
+  "held_paths": [],
+  "visual_review": "pending",
+  "live_site_code_changed": false,
+  "files": [
+    {
+      "path": "stag-studio/web-bg.png",
+      "project": "Black Stag Web Design",
+      "website": "https://blackstagweb.com",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "source_sha256": "a63424e7d8eebd72b7fad5f8c8827019edad8e869dee2e8e780a248fe1cca6c0",
+      "status": "verified",
+      "operation": "jpeg_bytes_to_true_png",
+      "output_sha256": "7a1d60b841d35a434468b538762f1a3ca97689573868b7f9b265930562e4860d",
+      "source_container_format": "JPEG",
+      "output_container_format": "PNG",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "decoded_rgb_pixels_unchanged": true,
+      "icc_profile_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "studio_credit": "Lace & Leather Arcane Studio (artwork production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/mobile-bg.png",
+      "project": "Black Stag Web Design",
+      "website": "https://blackstagweb.com",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "source_sha256": "5376abde62b8fbce81eef49d0dd5ddcdc55267ce283a81a159d5a4a79382cc5b",
+      "status": "verified",
+      "operation": "jpeg_bytes_to_true_png",
+      "output_sha256": "4dee56366d915ce764c0027e2bc0d4f639daf62e52d879a3bb55c6d3dfdd8eee",
+      "source_container_format": "JPEG",
+      "output_container_format": "PNG",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "decoded_rgb_pixels_unchanged": true,
+      "icc_profile_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "studio_credit": "Lace & Leather Arcane Studio (artwork production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/lwa-web.webp",
+      "project": "Living Waters Aquascapes",
+      "website": "https://theblackstaginn.github.io/Living-Waters-Aquascapes/",
+      "rights": "Copyright 2026 Living Waters Aquascapes",
+      "source_sha256": "e06a8057fa7953cf36951073f671e20a465500845e2251c1c36391a63df91f3a",
+      "status": "verified",
+      "operation": "metadata_only",
+      "output_sha256": "e875c40810fb400872961be673f367cba0ff7cb0f0c5f3b107dc2ad6df5fc38c",
+      "format": "WEBP",
+      "dimensions": [
+        1536,
+        707
+      ],
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "studio_credit": "Lace & Leather Arcane Studio (artwork production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/lwa-mobile.webp",
+      "project": "Living Waters Aquascapes",
+      "website": "https://theblackstaginn.github.io/Living-Waters-Aquascapes/",
+      "rights": "Copyright 2026 Living Waters Aquascapes",
+      "source_sha256": "b630fc83055b3b50d79ea7a4894caf81f441b1cb1e065d1f213ace5745b24cf6",
+      "status": "verified",
+      "operation": "metadata_only",
+      "output_sha256": "0871cd80ef3c48cebeb5fafc8c47abafc7bb7e9fbcfe65d61dd930efeaca2f49",
+      "format": "WEBP",
+      "dimensions": [
+        707,
+        1536
+      ],
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "studio_credit": "Lace & Leather Arcane Studio (artwork production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    }
+  ]
+}
