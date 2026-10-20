@@ -121,7 +121,7 @@ def run(manifest_path,report_path):
         rows.append(rec)
     verified=[r for r in rows if r["status"]=="verified_metadata_only"]; held=[r for r in rows if r["status"]=="held_for_review"]
     if not verified and not any(r["status"]=="already_credited" for r in rows): raise RuntimeError("nothing safely processable")
-    report={"schema_version":1,"pilot":"BSWD metadata provenance pilot","project_owner":OWNER,"production_studio":STUDIO,"total":len(rows),"verified_metadata_only":len(verified),"held_for_review":len(held),"updated_paths":[r["path"] for r in verified],"files":rows}
+    report={"schema_version":1,"pilot":"BSWD metadata provenance pilot","project_owner":OWNER,"production_studio":STUDIO,"total":len(rows),"verified_metadata_only":len(verified),"held_for_review":len(held),"updated_paths":[r["path"] for r in verified],"live_site_code_changed":False,"files":rows}
     report_path.parent.mkdir(parents=True,exist_ok=True); report_path.write_text(json.dumps(report,indent=2)+"\n")
     print(json.dumps(report,indent=2))
 
