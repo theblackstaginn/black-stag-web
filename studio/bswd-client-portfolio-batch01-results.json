@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "batch": "BSWD client portfolio metadata batch 01",
+  "production_studio": "Lace & Leather Arcane Studio",
+  "total": 12,
+  "verified_metadata_only": 7,
+  "already_credited": 0,
+  "held_for_review": 5,
+  "updated_paths": [
+    "stag-studio/IMG_9966.jpeg",
+    "stag-studio/IMG_9965.png",
+    "stag-studio/ck-web.webp",
+    "stag-studio/ck-mobile.webp",
+    "stag-studio/stag-stone-web.PNG",
+    "stag-studio/stag-stone-mobile.PNG",
+    "stag-studio/lace-leather-web.png"
+  ],
+  "held_paths": [
+    {
+      "path": "stag-studio/spw-web.png",
+      "reason": "unsupported_or_unreadable_image"
+    },
+    {
+      "path": "stag-studio/spw-mobile.png",
+      "reason": "unsupported_or_unreadable_image"
+    },
+    {
+      "path": "stag-studio/lace-leather-mobile.png",
+      "reason": "unsupported_or_unreadable_image"
+    },
+    {
+      "path": "stag-studio/leaf-web.png",
+      "reason": "unsupported_or_unreadable_image"
+    },
+    {
+      "path": "stag-studio/leaf-mobile.png",
+      "reason": "unsupported_or_unreadable_image"
+    }
+  ],
+  "visual_review": "approved_for_verified_files",
+  "live_site_code_changed": false,
+  "files": [
+    {
+      "path": "stag-studio/IMG_9966.jpeg",
+      "project": "Cavalier Country Farm",
+      "website": "https://cavaliercountry.farm",
+      "rights": "Copyright 2026 Cavalier Country Farm",
+      "source_sha256": "a8881b0c1bef9e336cf08571fb6564b300bc40e54e3a1cfa51b0393d4ad5e033",
+      "format": "JPEG",
+      "dimensions": [
+        2181,
+        894
+      ],
+      "pixel_sha256": "bebd1943b87943dec765cf9b0520552dc4056b7e89a7e33ec9e4f1c2a2ccd309",
+      "encoded_picture_sha256": "74004fab5b99dc8ea0c7b142f7bc539d5868133e9e6cac41f6abb08295d89e55",
+      "status": "verified_metadata_only",
+      "output_sha256": "0958dd92e7e2ad36cce6de9e7e38aadd0c0560710ab6e4d77b9d2e2a2a4cf47a",
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "studio_credit": "Lace & Leather Arcane Studio (portfolio image production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/IMG_9965.png",
+      "project": "Cavalier Country Farm",
+      "website": "https://cavaliercountry.farm",
+      "rights": "Copyright 2026 Cavalier Country Farm",
+      "source_sha256": "847cabd55b555b1c41a043737797a667fe16e53066a7da21a13c82617e2f87d9",
+      "format": "PNG",
+      "dimensions": [
+        1125,
+        2436
+      ],
+      "pixel_sha256": "cd1068413109ed589519102296e4670ff784a5fd97c6c09724a868dee6d25018",
+      "encoded_picture_sha256": "dff9d4e84677db30d5ffa4d1806fe49796219a43c80a8bddf3225fbdb39692d7",
+      "status": "verified_metadata_only",
+      "output_sha256": "733b52c4be3ba768465d996c14c405e0578b3135ca8773681a3811de61742f34",
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "studio_credit": "Lace & Leather Arcane Studio (portfolio image production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/ck-web.webp",
+      "project": "Clearview Kennels",
+      "website": "https://clearviewkennels.com/",
+      "rights": "Copyright 2026 Clearview Kennels",
+      "source_sha256": "21f07f09035c9ce8290b2d51b386d715722717ff495e8c01c55425c2c5080d45",
+      "format": "WEBP",
+      "dimensions": [
+        2736,
+        1260
+      ],
+      "pixel_sha256": "2fe250aa6009d2a723288bd7df2023d37f0addaf8013b0a55c843a605923f5be",
+      "encoded_picture_sha256": "e4a537118146af16aa8be053ac9f9ee841a394d698499c6a3696165acd5380c4",
+      "status": "verified_metadata_only",
+      "output_sha256": "a7df4101f5136116e0acf3a13e0063a081962234638eed86107176faf758d1a8",
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "studio_credit": "Lace & Leather Arcane Studio (portfolio image production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/ck-mobile.webp",
+      "project": "Clearview Kennels",
+      "website": "https://clearviewkennels.com/",
+      "rights": "Copyright 2026 Clearview Kennels",
+      "source_sha256": "f09ee554891168094235442a45011b086bb3550e63502111b2e74b2f9a7cbbf2",
+      "format": "WEBP",
+      "dimensions": [
+        1260,
+        2736
+      ],
+      "pixel_sha256": "710681a4d848eaadca352ec8dcbf50e7e58dcc9216c41d91a87108cede76b2b4",
+      "encoded_picture_sha256": "71821a2b57329d8e85822fa90517bbadcc026c295722e48fed863c249c19c08f",
+      "status": "verified_metadata_only",
+      "output_sha256": "f98fc623043845067e90d7319c81b55adc8f31c6b876ce2e6002205f9107d555",
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "studio_credit": "Lace & Leather Arcane Studio (portfolio image production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/stag-stone-web.PNG",
+      "project": "Stag & Stone Coffee and Bakehouse",
+      "website": "https://stagandstonecoffee.com/",
+      "rights": "Copyright 2026 Stag & Stone Coffee and Bakehouse",
+      "source_sha256": "52ea373acbc7144ee1ced452b0627c3fe91942d46eeaf2433658fbfbc11c3684",
+      "format": "PNG",
+      "dimensions": [
+        2736,
+        1260
+      ],
+      "pixel_sha256": "5dd01dd478732799b30b3d8de8051375a91a74ab38e2d503ada555ec5f59b2eb",
+      "encoded_picture_sha256": "e5328d110fa7c8ae4c092975a1f199391a5656e5719f17db87da87d13733d730",
+      "status": "verified_metadata_only",
+      "output_sha256": "3dacc57a053c6e7688628a9c37fe6ff908ad0e4306aa870bfaf0b59b375c930f",
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "studio_credit": "Lace & Leather Arcane Studio (portfolio image production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/stag-stone-mobile.PNG",
+      "project": "Stag & Stone Coffee and Bakehouse",
+      "website": "https://stagandstonecoffee.com/",
+      "rights": "Copyright 2026 Stag & Stone Coffee and Bakehouse",
+      "source_sha256": "b90663dacfeaa51546bbc2c6131a2232b018a12996025dfd0e9f4b97d3bd7e25",
+      "format": "PNG",
+      "dimensions": [
+        1260,
+        2736
+      ],
+      "pixel_sha256": "917da07453aded96999b5d7553f6649ee3b8d786fc9b677d70c58c8b840e3100",
+      "encoded_picture_sha256": "06afd1a8fa215aab33bd8fb1438efb2093468a5ab0cd0561111051a8b8b2ec50",
+      "status": "verified_metadata_only",
+      "output_sha256": "74b17bca8cb8501d034114c46352f0dbdc91b81637ed9560314dd3e2a68381cb",
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "studio_credit": "Lace & Leather Arcane Studio (portfolio image production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/spw-web.png",
+      "project": "Southern Pressure Washing",
+      "website": "https://southernpresswashing.com",
+      "rights": "Copyright 2026 Southern Pressure Washing",
+      "source_sha256": "6094d5672e6dfd46ae118095f9048e24dbbe8fdbed07a7df1b20f228a5378d98",
+      "status": "held_for_review",
+      "reason": "unsupported_or_unreadable_image",
+      "detail": "ValueError",
+      "output_sha256": "6094d5672e6dfd46ae118095f9048e24dbbe8fdbed07a7df1b20f228a5378d98"
+    },
+    {
+      "path": "stag-studio/spw-mobile.png",
+      "project": "Southern Pressure Washing",
+      "website": "https://southernpresswashing.com",
+      "rights": "Copyright 2026 Southern Pressure Washing",
+      "source_sha256": "74c187defbed416e814f0907ace9996b8c094d6ab6ad1b91a0eafa9ba3c61385",
+      "status": "held_for_review",
+      "reason": "unsupported_or_unreadable_image",
+      "detail": "ValueError",
+      "output_sha256": "74c187defbed416e814f0907ace9996b8c094d6ab6ad1b91a0eafa9ba3c61385"
+    },
+    {
+      "path": "stag-studio/lace-leather-web.png",
+      "project": "Lace & Leather Arcane",
+      "website": "https://laceleatherarcane.com",
+      "rights": "Copyright 2026 Lace & Leather Arcane",
+      "source_sha256": "f2f88978dd73901778433ef78d94b90d4404e797c264ab1a3d41eed77daa49ee",
+      "format": "PNG",
+      "dimensions": [
+        1336,
+        599
+      ],
+      "pixel_sha256": "ebd3a1d4de801cb1491c88e589a81074ba9f9d26b3c81373df0c21b03827f261",
+      "encoded_picture_sha256": "ad44ebdb37989034a8a8b514a7640b4bb707aad874bed2c8f870d6b25bab962a",
+      "status": "verified_metadata_only",
+      "output_sha256": "3fdb8b2adeb8d2bb7d99dc39120b2eaa9385b4149770cd5195ba02e4372c58a2",
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "studio_credit": "Lace & Leather Arcane Studio (portfolio image production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/lace-leather-mobile.png",
+      "project": "Lace & Leather Arcane",
+      "website": "https://laceleatherarcane.com",
+      "rights": "Copyright 2026 Lace & Leather Arcane",
+      "source_sha256": "b203f5fd19e952495a032366b970870192f60e92ca3262ac3127c905c8397c62",
+      "status": "held_for_review",
+      "reason": "unsupported_or_unreadable_image",
+      "detail": "ValueError",
+      "output_sha256": "b203f5fd19e952495a032366b970870192f60e92ca3262ac3127c905c8397c62"
+    },
+    {
+      "path": "stag-studio/leaf-web.png",
+      "project": "Leaf Grocery & Deli",
+      "website": "https://leafdeli.com/",
+      "rights": "Copyright 2026 Leaf Grocery & Deli",
+      "source_sha256": "e19da2396a3d6f03334316da55b720733ea18261b07075e98f0499de1fc32dae",
+      "status": "held_for_review",
+      "reason": "unsupported_or_unreadable_image",
+      "detail": "ValueError",
+      "output_sha256": "e19da2396a3d6f03334316da55b720733ea18261b07075e98f0499de1fc32dae"
+    },
+    {
+      "path": "stag-studio/leaf-mobile.png",
+      "project": "Leaf Grocery & Deli",
+      "website": "https://leafdeli.com/",
+      "rights": "Copyright 2026 Leaf Grocery & Deli",
+      "source_sha256": "0f39e4debba8b7320d82efff0030e23654e867db6da1f5903c16341624104cb8",
+      "status": "held_for_review",
+      "reason": "unsupported_or_unreadable_image",
+      "detail": "ValueError",
+      "output_sha256": "0f39e4debba8b7320d82efff0030e23654e867db6da1f5903c16341624104cb8"
+    }
+  ],
+  "visual_review_note": "All seven metadata-only edits were individually inspected side-by-side against main and are visually identical. Five held files remain unchanged for separate format/integrity review.",
+  "visual_review_approved_paths": [
+    "stag-studio/IMG_9966.jpeg",
+    "stag-studio/IMG_9965.png",
+    "stag-studio/ck-web.webp",
+    "stag-studio/ck-mobile.webp",
+    "stag-studio/stag-stone-web.PNG",
+    "stag-studio/stag-stone-mobile.PNG",
+    "stag-studio/lace-leather-web.png"
+  ]
+}
