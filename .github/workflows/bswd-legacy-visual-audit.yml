@@ -1,0 +1,112 @@
+name: BSWD legacy asset visual audit
+
+on:
+  push:
+    branches:
+      - bswd-legacy-audit-20261020
+    paths:
+      - ".github/workflows/bswd-legacy-visual-audit.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  render-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout audit branch
+        uses: actions/checkout@v4
+        with:
+          ref: bswd-legacy-audit-20261020
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: python -m pip install --disable-pip-version-check "Pillow==11.3.0"
+
+      - name: Render legacy asset audit sheets
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image, ImageDraw, ImageOps
+          import json
+
+          files = [
+              "stag-studio/2-wolves-mobile.png",
+              "stag-studio/2-wolves-web.png",
+              "stag-studio/black-stag-inn-mobile.png",
+              "stag-studio/black-stag-inn-web.png",
+              "stag-studio/fh-coffee-mobile.png",
+              "stag-studio/fh-coffee-web.png",
+              "stag-studio/helen-hat-mobile.png",
+              "stag-studio/helen-hat-web.png",
+              "stag-studio/honey-hill-mobile.png",
+              "stag-studio/honey-hill-web.png",
+              "stag-studio/living-waters-mobile.png",
+              "stag-studio/living-waters-web.png",
+              "stag-studio/lvs-mobile.png",
+              "stag-studio/lvs-web.png",
+              "stag-studio/revival-mobile.png",
+              "stag-studio/revival-web.png",
+              "stag-studio/stag-bbq-mobile.png",
+              "stag-studio/stag-bbq-web.png",
+          ]
+
+          out = Path("legacy-audit")
+          out.mkdir(exist_ok=True)
+          info = []
+
+          panel_w, panel_h = 760, 560
+          thumb_w, thumb_h = 720, 460
+          per_sheet = 6
+
+          for sheet_idx in range((len(files) + per_sheet - 1)//per_sheet):
+              subset = files[sheet_idx*per_sheet:(sheet_idx+1)*per_sheet]
+              sheet = Image.new("RGB", (panel_w*2, panel_h*3), "white")
+              draw = ImageDraw.Draw(sheet)
+              for idx, path in enumerate(subset):
+                  p = Path(path)
+                  with Image.open(p) as im:
+                      fmt = im.format
+                      size = list(im.size)
+                      frames = getattr(im, "n_frames", 1)
+                      im.seek(0)
+                      view = im.convert("RGBA")
+                      checker = Image.new("RGBA", view.size, (235,235,235,255))
+                      cd = ImageDraw.Draw(checker)
+                      tile=24
+                      for y in range(0, view.height, tile):
+                          for x in range(0, view.width, tile):
+                              if (x//tile+y//tile)%2:
+                                  cd.rectangle((x,y,min(x+tile,view.width),min(y+tile,view.height)), fill=(205,205,205,255))
+                      checker.alpha_composite(view)
+                      rendered = checker.convert("RGB")
+                      rendered.thumbnail((thumb_w, thumb_h), Image.Resampling.LANCZOS)
+
+                  x0 = (idx % 2) * panel_w
+                  y0 = (idx // 2) * panel_h
+                  px = x0 + (panel_w-rendered.width)//2
+                  py = y0 + 60 + (thumb_h-rendered.height)//2
+                  sheet.paste(rendered, (px,py))
+                  draw.rectangle((x0,y0,x0+panel_w-1,y0+panel_h-1), outline="black")
+                  draw.text((x0+16,y0+14), p.name, fill="black")
+                  draw.text((x0+16,y0+36), f"{fmt} {size[0]}x{size[1]} frames={frames}", fill="black")
+                  info.append({"path":path,"detected_format":fmt,"width":size[0],"height":size[1],"frames":frames})
+
+              target = out / f"legacy-audit-sheet-{sheet_idx+1}.png"
+              sheet.save(target, "PNG")
+
+          (out/"legacy-audit-index.json").write_text(json.dumps(info,indent=2)+"\n")
+          print(json.dumps(info,indent=2))
+          PY
+
+      - name: Upload audit sheets
+        uses: actions/upload-artifact@v4
+        with:
+          name: bswd-legacy-visual-audit
+          path: legacy-audit/
+          retention-days: 14
