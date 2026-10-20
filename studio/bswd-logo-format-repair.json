@@ -23,6 +23,7 @@
     "XMP-photoshop:Credit": "Lace & Leather Arcane Studio (artwork production and preparation)",
     "XMP-xmpRights:WebStatement": "https://blackstagweb.com/ownership.html"
   },
-  "visual_review": "pending",
-  "live_site_code_changed": false
+  "visual_review": "approved",
+  "live_site_code_changed": false,
+  "visual_review_note": "Side-by-side inspection confirms the repaired true PNG is visually identical to the original JPEG-byte source at the same path."
 }
