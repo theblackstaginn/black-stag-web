@@ -37,7 +37,7 @@
       "reason": "unsupported_or_unreadable_image"
     }
   ],
-  "visual_review": "pending",
+  "visual_review": "approved_for_verified_files",
   "live_site_code_changed": false,
   "files": [
     {
@@ -242,5 +242,15 @@
       "detail": "ValueError",
       "output_sha256": "0f39e4debba8b7320d82efff0030e23654e867db6da1f5903c16341624104cb8"
     }
+  ],
+  "visual_review_note": "All seven metadata-only edits were individually inspected side-by-side against main and are visually identical. Five held files remain unchanged for separate format/integrity review.",
+  "visual_review_approved_paths": [
+    "stag-studio/IMG_9966.jpeg",
+    "stag-studio/IMG_9965.png",
+    "stag-studio/ck-web.webp",
+    "stag-studio/ck-mobile.webp",
+    "stag-studio/stag-stone-web.PNG",
+    "stag-studio/stag-stone-mobile.PNG",
+    "stag-studio/lace-leather-web.png"
   ]
 }
