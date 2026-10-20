@@ -13,7 +13,7 @@
     "stag-studio/lwa-mobile.webp"
   ],
   "held_paths": [],
-  "visual_review": "pending",
+  "visual_review": "approved",
   "live_site_code_changed": false,
   "files": [
     {
@@ -98,5 +98,12 @@
       "studio_credit": "Lace & Leather Arcane Studio (artwork production and preparation)",
       "rights_statement_url": "https://blackstagweb.com/ownership.html"
     }
+  ],
+  "visual_review_note": "All four staged assets were individually inspected side-by-side against main and are visually identical. The two BSWD backgrounds were repaired from JPEG bytes to true PNGs; the two Living Waters WebPs received metadata-only updates.",
+  "visual_review_approved_paths": [
+    "stag-studio/web-bg.png",
+    "stag-studio/mobile-bg.png",
+    "stag-studio/lwa-web.webp",
+    "stag-studio/lwa-mobile.webp"
   ]
 }
