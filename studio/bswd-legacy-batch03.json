@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "batch": "BSWD legacy provenance batch 03",
+  "production_studio": "Lace & Leather Arcane Studio",
+  "rights_statement_url": "https://blackstagweb.com/ownership.html",
+  "evidence_note": "Historical portfolio markup identifies 2 Wolves, Farmhouse Coffee, Helen Hat Company, Honey on the Hill, and Revival Gifts & Apparel as concept work; Black Stag Inn and Black Stag Fusion BBQ as live Black Stag projects; Living Waters Aquascapes as a live service project. Liminal Vault Studio is intentionally excluded pending separate ownership review.",
+  "files": [
+    {
+      "path": "stag-studio/2-wolves-mobile.png",
+      "project": "2 Wolves Apothecary",
+      "rights": "Copyright 2026 Black Stag Web Design (portfolio concept presentation only; underlying names, marks, and third-party content remain with their respective owners)",
+      "website": "https://theblackstaginn.github.io/2wolvesmock",
+      "description": "2 Wolves Apothecary portfolio concept mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/2-wolves-web.png",
+      "project": "2 Wolves Apothecary",
+      "rights": "Copyright 2026 Black Stag Web Design (portfolio concept presentation only; underlying names, marks, and third-party content remain with their respective owners)",
+      "website": "https://theblackstaginn.github.io/2wolvesmock",
+      "description": "2 Wolves Apothecary portfolio concept desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/fh-coffee-mobile.png",
+      "project": "Farmhouse Coffee",
+      "rights": "Copyright 2026 Black Stag Web Design (portfolio concept presentation only; underlying names, marks, and third-party content remain with their respective owners)",
+      "website": "https://theblackstaginn.github.io/fhcoffeemock",
+      "description": "Farmhouse Coffee portfolio concept mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/fh-coffee-web.png",
+      "project": "Farmhouse Coffee",
+      "rights": "Copyright 2026 Black Stag Web Design (portfolio concept presentation only; underlying names, marks, and third-party content remain with their respective owners)",
+      "website": "https://theblackstaginn.github.io/fhcoffeemock",
+      "description": "Farmhouse Coffee portfolio concept desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/helen-hat-mobile.png",
+      "project": "Helen Hat Company",
+      "rights": "Copyright 2026 Black Stag Web Design (portfolio concept presentation only; underlying names, marks, and third-party content remain with their respective owners)",
+      "website": "https://theblackstaginn.github.io/helenhatmock",
+      "description": "Helen Hat Company portfolio concept mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/helen-hat-web.png",
+      "project": "Helen Hat Company",
+      "rights": "Copyright 2026 Black Stag Web Design (portfolio concept presentation only; underlying names, marks, and third-party content remain with their respective owners)",
+      "website": "https://theblackstaginn.github.io/helenhatmock",
+      "description": "Helen Hat Company portfolio concept desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/honey-hill-mobile.png",
+      "project": "Honey on the Hill",
+      "rights": "Copyright 2026 Black Stag Web Design (portfolio concept presentation only; underlying names, marks, and third-party content remain with their respective owners)",
+      "website": "https://theblackstaginn.github.io/HOTHMOCK",
+      "description": "Honey on the Hill portfolio concept mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/honey-hill-web.png",
+      "project": "Honey on the Hill",
+      "rights": "Copyright 2026 Black Stag Web Design (portfolio concept presentation only; underlying names, marks, and third-party content remain with their respective owners)",
+      "website": "https://theblackstaginn.github.io/HOTHMOCK",
+      "description": "Honey on the Hill portfolio concept desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/revival-mobile.png",
+      "project": "Revival Gifts & Apparel",
+      "rights": "Copyright 2026 Black Stag Web Design (portfolio concept presentation only; underlying names, marks, and third-party content remain with their respective owners)",
+      "website": "https://theblackstaginn.github.io/revivalmock",
+      "description": "Revival Gifts & Apparel portfolio concept mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/revival-web.png",
+      "project": "Revival Gifts & Apparel",
+      "rights": "Copyright 2026 Black Stag Web Design (portfolio concept presentation only; underlying names, marks, and third-party content remain with their respective owners)",
+      "website": "https://theblackstaginn.github.io/revivalmock",
+      "description": "Revival Gifts & Apparel portfolio concept desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/black-stag-inn-mobile.png",
+      "project": "Black Stag Inn",
+      "rights": "Copyright 2026 Black Stag Inn",
+      "website": "https://www.blackstaginn.com",
+      "description": "Black Stag Inn website mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/black-stag-inn-web.png",
+      "project": "Black Stag Inn",
+      "rights": "Copyright 2026 Black Stag Inn",
+      "website": "https://www.blackstaginn.com",
+      "description": "Black Stag Inn website desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/stag-bbq-mobile.png",
+      "project": "Black Stag Fusion BBQ",
+      "rights": "Copyright 2026 Black Stag Fusion BBQ",
+      "website": "https://blackstagfusionbbq.com",
+      "description": "Black Stag Fusion BBQ website mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/stag-bbq-web.png",
+      "project": "Black Stag Fusion BBQ",
+      "rights": "Copyright 2026 Black Stag Fusion BBQ",
+      "website": "https://blackstagfusionbbq.com",
+      "description": "Black Stag Fusion BBQ website desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/living-waters-mobile.png",
+      "project": "Living Waters Aquascapes",
+      "rights": "Copyright 2026 Living Waters Aquascapes",
+      "website": "https://theblackstaginn.github.io/Living-Waters-Aquascapes/",
+      "description": "Living Waters Aquascapes legacy website mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/living-waters-web.png",
+      "project": "Living Waters Aquascapes",
+      "rights": "Copyright 2026 Living Waters Aquascapes",
+      "website": "https://theblackstaginn.github.io/Living-Waters-Aquascapes/",
+      "description": "Living Waters Aquascapes legacy website desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    }
+  ]
+}
