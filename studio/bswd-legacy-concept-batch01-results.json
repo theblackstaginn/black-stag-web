@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "batch": "BSWD legacy concept provenance batch 01",
+  "classification_basis": "Historical Black Stag portfolio copy explicitly labeled these projects as concept demos.",
+  "historical_evidence_commit": "0551bef616a4a9c95cdccebceeb40c65358cdf48",
+  "production_studio": "Lace & Leather Arcane Studio",
+  "rights_holder": "Black Stag Web Design",
+  "total": 10,
+  "verified": 10,
+  "already_credited": 0,
+  "held_for_review": 0,
+  "updated_paths": [
+    "stag-studio/2-wolves-web.png",
+    "stag-studio/2-wolves-mobile.png",
+    "stag-studio/fh-coffee-web.png",
+    "stag-studio/fh-coffee-mobile.png",
+    "stag-studio/helen-hat-web.png",
+    "stag-studio/helen-hat-mobile.png",
+    "stag-studio/honey-hill-web.png",
+    "stag-studio/honey-hill-mobile.png",
+    "stag-studio/revival-web.png",
+    "stag-studio/revival-mobile.png"
+  ],
+  "held_paths": [],
+  "visual_review": "pending",
+  "live_site_code_changed": false,
+  "files": [
+    {
+      "path": "stag-studio/2-wolves-web.png",
+      "project": "2 Wolves Apothecary Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "source_sha256": "56b093cf93f649b782f57ff9cb065bb7141bbb053116b8df0fb78eade92106f1",
+      "status": "verified",
+      "operation": "metadata_only",
+      "format": "PNG",
+      "dimensions": [
+        1337,
+        598
+      ],
+      "output_sha256": "6876917a2d5c12c90088b7c2822ec17d6a7c02865e0a05278c66908c15661ce2",
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "rights_holder": "Black Stag Web Design",
+      "studio_credit": "Lace & Leather Arcane Studio (concept artwork production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/2-wolves-mobile.png",
+      "project": "2 Wolves Apothecary Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "source_sha256": "56bd3785517e85c6a32dfb82e7b366717c82327ea40c6daf526bc6dc40a1ade8",
+      "status": "verified",
+      "operation": "jpeg_bytes_to_true_png",
+      "source_container_format": "JPEG",
+      "output_container_format": "PNG",
+      "dimensions": [
+        1125,
+        2436
+      ],
+      "output_sha256": "c54376b5e58ec74495dc596d724f1de0343af9773b8f4f8795fca74a76054a61",
+      "decoded_rgb_pixels_unchanged": true,
+      "icc_profile_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "rights_holder": "Black Stag Web Design",
+      "studio_credit": "Lace & Leather Arcane Studio (concept artwork production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/fh-coffee-web.png",
+      "project": "Farmhouse Coffee Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "source_sha256": "9fbb573903cf8e5d361dbd162a60e27bfe9d5a7f4fa2d8b23c9686fcab4a6b93",
+      "status": "verified",
+      "operation": "metadata_only",
+      "format": "PNG",
+      "dimensions": [
+        1340,
+        598
+      ],
+      "output_sha256": "4195b9ea3baa7f3e98fbba99cd1862d59e6a2b513abc991d8cb9205e619e50d4",
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "rights_holder": "Black Stag Web Design",
+      "studio_credit": "Lace & Leather Arcane Studio (concept artwork production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/fh-coffee-mobile.png",
+      "project": "Farmhouse Coffee Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "source_sha256": "d0352da0ef211933cb1d20809661b4bb363128e21ae33917c92501a73139fe59",
+      "status": "verified",
+      "operation": "jpeg_bytes_to_true_png",
+      "source_container_format": "JPEG",
+      "output_container_format": "PNG",
+      "dimensions": [
+        1125,
+        2436
+      ],
+      "output_sha256": "9615f6096bd0a1b073b527152f79f8eb0edf644fe496059abb968f0e0dba5562",
+      "decoded_rgb_pixels_unchanged": true,
+      "icc_profile_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "rights_holder": "Black Stag Web Design",
+      "studio_credit": "Lace & Leather Arcane Studio (concept artwork production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/helen-hat-web.png",
+      "project": "Helen Hat Co. Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "source_sha256": "62c84c7148b5417fad8f5efd58dba6a3a028272f476a63b11483b6893b623160",
+      "status": "verified",
+      "operation": "metadata_only",
+      "format": "PNG",
+      "dimensions": [
+        1338,
+        597
+      ],
+      "output_sha256": "02f7556cb184213caadfa240ac7cf3a6390ba0bf4420d833174727584442db93",
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "rights_holder": "Black Stag Web Design",
+      "studio_credit": "Lace & Leather Arcane Studio (concept artwork production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/helen-hat-mobile.png",
+      "project": "Helen Hat Co. Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "source_sha256": "30e08830f96ca4006307aea8806af237eb7d31ab69ca4e0418caef7a0ca5027d",
+      "status": "verified",
+      "operation": "jpeg_bytes_to_true_png",
+      "source_container_format": "JPEG",
+      "output_container_format": "PNG",
+      "dimensions": [
+        1125,
+        2436
+      ],
+      "output_sha256": "72ce2f5fa4c5faf0e213ab09d6edd27ab1b1b304685403b68619d684beb5cae7",
+      "decoded_rgb_pixels_unchanged": true,
+      "icc_profile_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "rights_holder": "Black Stag Web Design",
+      "studio_credit": "Lace & Leather Arcane Studio (concept artwork production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/honey-hill-web.png",
+      "project": "Honey on the Hill Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "source_sha256": "eb58b0d77a2b35c0d665523527d371ca10fb7e92af1bb97e04507d439807742f",
+      "status": "verified",
+      "operation": "metadata_only",
+      "format": "PNG",
+      "dimensions": [
+        1339,
+        599
+      ],
+      "output_sha256": "182c6518382617f180b07f487e813da082cc87b5ca9e216ed1ca1d91261db01c",
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "rights_holder": "Black Stag Web Design",
+      "studio_credit": "Lace & Leather Arcane Studio (concept artwork production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/honey-hill-mobile.png",
+      "project": "Honey on the Hill Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "source_sha256": "bbb76c876304231b0f6a52bb54aa64fdbf474e8089f1300f58697370022f428f",
+      "status": "verified",
+      "operation": "jpeg_bytes_to_true_png",
+      "source_container_format": "JPEG",
+      "output_container_format": "PNG",
+      "dimensions": [
+        1125,
+        2436
+      ],
+      "output_sha256": "983d4a4fc667fd0baac32e798f9bc86e46657b0fdca581826f993affbfa3c00a",
+      "decoded_rgb_pixels_unchanged": true,
+      "icc_profile_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "rights_holder": "Black Stag Web Design",
+      "studio_credit": "Lace & Leather Arcane Studio (concept artwork production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/revival-web.png",
+      "project": "Revival Gifts & Apparel Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "source_sha256": "c5185b2ad95423eb68cfc65bee05b7be71b910964d5f59b8372234f6bc0bf55f",
+      "status": "verified",
+      "operation": "metadata_only",
+      "format": "PNG",
+      "dimensions": [
+        1338,
+        596
+      ],
+      "output_sha256": "493c63651a85200b0768ea806d79f8f1f83289aff7ba8a33df4c0513935b2319",
+      "pixels_alpha_frames_profile_unchanged": true,
+      "compressed_picture_data_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "rights_holder": "Black Stag Web Design",
+      "studio_credit": "Lace & Leather Arcane Studio (concept artwork production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/revival-mobile.png",
+      "project": "Revival Gifts & Apparel Concept",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "source_sha256": "add619a8ec19fcad8c0e68c2dd0c3e829b3d05284969e2c05d115739addc29f6",
+      "status": "verified",
+      "operation": "jpeg_bytes_to_true_png",
+      "source_container_format": "JPEG",
+      "output_container_format": "PNG",
+      "dimensions": [
+        1125,
+        2436
+      ],
+      "output_sha256": "deb47a34972ecafadf5ca7f21a277cd480a48936673324fe76658ad8f31f0b43",
+      "decoded_rgb_pixels_unchanged": true,
+      "icc_profile_unchanged": true,
+      "creator": "Lace & Leather Arcane Studio",
+      "rights_holder": "Black Stag Web Design",
+      "studio_credit": "Lace & Leather Arcane Studio (concept artwork production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    }
+  ]
+}
