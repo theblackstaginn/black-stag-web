@@ -99,5 +99,18 @@
       "rights": "Copyright 2026 Black Stag Web Design",
       "studio_credit": "Lace & Leather Arcane Studio (artwork production and preparation)"
     }
-  ]
+  ],
+  "visual_review": {
+    "status": "approved",
+    "reviewed_count": 4,
+    "held_count": 1,
+    "method": "side-by-side original main vs staged render inspection",
+    "approved_paths": [
+      "assets/BSWD-apple-touch-icon.png",
+      "assets/BSWD-icon.webp",
+      "copper-btn.png",
+      "copper-btn.webp"
+    ],
+    "note": "All four metadata-only edits are visually identical to their originals. stag-studio/bsw-logo.png remains unchanged and held for separate format/provenance review."
+  }
 }
