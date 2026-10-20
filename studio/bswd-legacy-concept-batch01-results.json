@@ -22,7 +22,7 @@
     "stag-studio/revival-mobile.png"
   ],
   "held_paths": [],
-  "visual_review": "pending",
+  "visual_review": "approved",
   "live_site_code_changed": false,
   "files": [
     {
@@ -230,5 +230,18 @@
       "studio_credit": "Lace & Leather Arcane Studio (concept artwork production and preparation)",
       "rights_statement_url": "https://blackstagweb.com/ownership.html"
     }
+  ],
+  "visual_review_note": "All ten concept presentation images were individually inspected side-by-side against main and are visually identical. Five true PNGs received metadata-only updates; five JPEG-byte files were repaired to true PNGs without changing decoded RGB pixels or ICC profiles.",
+  "visual_review_approved_paths": [
+    "stag-studio/2-wolves-web.png",
+    "stag-studio/2-wolves-mobile.png",
+    "stag-studio/fh-coffee-web.png",
+    "stag-studio/fh-coffee-mobile.png",
+    "stag-studio/helen-hat-web.png",
+    "stag-studio/helen-hat-mobile.png",
+    "stag-studio/honey-hill-web.png",
+    "stag-studio/honey-hill-mobile.png",
+    "stag-studio/revival-web.png",
+    "stag-studio/revival-mobile.png"
   ]
 }
