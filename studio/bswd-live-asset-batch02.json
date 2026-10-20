@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "batch": "BSWD live asset provenance batch 02",
+  "production_studio": "Lace & Leather Arcane Studio",
+  "rights_statement_url": "https://blackstagweb.com/ownership.html",
+  "files": [
+    {
+      "path": "stag-studio/web-bg.png",
+      "project": "Black Stag Web Design",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "website": "https://blackstagweb.com",
+      "description": "Black Stag Web Design desktop website background artwork; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/mobile-bg.png",
+      "project": "Black Stag Web Design",
+      "rights": "Copyright 2026 Black Stag Web Design",
+      "website": "https://blackstagweb.com",
+      "description": "Black Stag Web Design mobile website background artwork; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/lwa-web.webp",
+      "project": "Living Waters Aquascapes",
+      "rights": "Copyright 2026 Living Waters Aquascapes",
+      "website": "https://theblackstaginn.github.io/Living-Waters-Aquascapes/",
+      "description": "Living Waters Aquascapes website desktop presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    },
+    {
+      "path": "stag-studio/lwa-mobile.webp",
+      "project": "Living Waters Aquascapes",
+      "rights": "Copyright 2026 Living Waters Aquascapes",
+      "website": "https://theblackstaginn.github.io/Living-Waters-Aquascapes/",
+      "description": "Living Waters Aquascapes website mobile presentation image; produced and prepared by Lace & Leather Arcane Studio."
+    }
+  ]
+}
