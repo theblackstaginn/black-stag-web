@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "batch": "BSWD client portfolio format repair batch 01",
+  "production_studio": "Lace & Leather Arcane Studio",
+  "total": 5,
+  "verified_format_repairs": 5,
+  "held_for_review": 0,
+  "updated_paths": [
+    "stag-studio/spw-web.png",
+    "stag-studio/spw-mobile.png",
+    "stag-studio/lace-leather-mobile.png",
+    "stag-studio/leaf-web.png",
+    "stag-studio/leaf-mobile.png"
+  ],
+  "held_paths": [],
+  "visual_review": "approved",
+  "live_site_code_changed": false,
+  "files": [
+    {
+      "path": "stag-studio/spw-web.png",
+      "project": "Southern Pressure Washing",
+      "website": "https://southernpresswashing.com",
+      "rights": "Copyright 2026 Southern Pressure Washing",
+      "source_sha256": "6094d5672e6dfd46ae118095f9048e24dbbe8fdbed07a7df1b20f228a5378d98",
+      "status": "verified_format_repair",
+      "output_sha256": "823e0cac5f8690584174669bbcba4ee7bb0d6c0b20c86d97381503c5d0782e6b",
+      "source_container_format": "JPEG",
+      "output_container_format": "PNG",
+      "dimensions": [
+        1339,
+        596
+      ],
+      "decoded_rgb_pixels_unchanged": true,
+      "icc_profile_unchanged": true,
+      "source_authenticity_credentials": false,
+      "conflicting_source_rights": [],
+      "creator": "Lace & Leather Arcane Studio",
+      "studio_credit": "Lace & Leather Arcane Studio (portfolio image production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/spw-mobile.png",
+      "project": "Southern Pressure Washing",
+      "website": "https://southernpresswashing.com",
+      "rights": "Copyright 2026 Southern Pressure Washing",
+      "source_sha256": "74c187defbed416e814f0907ace9996b8c094d6ab6ad1b91a0eafa9ba3c61385",
+      "status": "verified_format_repair",
+      "output_sha256": "9985d188547cceb2f5e8d32c1ca2c6cfec5b00a4b5ac8bf85b1d201465a5fe25",
+      "source_container_format": "JPEG",
+      "output_container_format": "PNG",
+      "dimensions": [
+        1125,
+        2436
+      ],
+      "decoded_rgb_pixels_unchanged": true,
+      "icc_profile_unchanged": true,
+      "source_authenticity_credentials": false,
+      "conflicting_source_rights": [],
+      "creator": "Lace & Leather Arcane Studio",
+      "studio_credit": "Lace & Leather Arcane Studio (portfolio image production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/lace-leather-mobile.png",
+      "project": "Lace & Leather Arcane",
+      "website": "https://laceleatherarcane.com",
+      "rights": "Copyright 2026 Lace & Leather Arcane",
+      "source_sha256": "b203f5fd19e952495a032366b970870192f60e92ca3262ac3127c905c8397c62",
+      "status": "verified_format_repair",
+      "output_sha256": "afe26522f8e4111d2e2ea5f661cc570ccfc45a00fdb37f0b80e9ef366f2865bf",
+      "source_container_format": "JPEG",
+      "output_container_format": "PNG",
+      "dimensions": [
+        1125,
+        2436
+      ],
+      "decoded_rgb_pixels_unchanged": true,
+      "icc_profile_unchanged": true,
+      "source_authenticity_credentials": false,
+      "conflicting_source_rights": [],
+      "creator": "Lace & Leather Arcane Studio",
+      "studio_credit": "Lace & Leather Arcane Studio (portfolio image production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/leaf-web.png",
+      "project": "Leaf Grocery & Deli",
+      "website": "https://leafdeli.com/",
+      "rights": "Copyright 2026 Leaf Grocery & Deli",
+      "source_sha256": "e19da2396a3d6f03334316da55b720733ea18261b07075e98f0499de1fc32dae",
+      "status": "verified_format_repair",
+      "output_sha256": "ddc41decbec6d9277d03229ad691029db279c54a09e5f446d4c2d3d2e28a3ac5",
+      "source_container_format": "JPEG",
+      "output_container_format": "PNG",
+      "dimensions": [
+        1339,
+        586
+      ],
+      "decoded_rgb_pixels_unchanged": true,
+      "icc_profile_unchanged": true,
+      "source_authenticity_credentials": false,
+      "conflicting_source_rights": [],
+      "creator": "Lace & Leather Arcane Studio",
+      "studio_credit": "Lace & Leather Arcane Studio (portfolio image production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    },
+    {
+      "path": "stag-studio/leaf-mobile.png",
+      "project": "Leaf Grocery & Deli",
+      "website": "https://leafdeli.com/",
+      "rights": "Copyright 2026 Leaf Grocery & Deli",
+      "source_sha256": "0f39e4debba8b7320d82efff0030e23654e867db6da1f5903c16341624104cb8",
+      "status": "verified_format_repair",
+      "output_sha256": "5f94fd5836261b95ba72c29935c28563e385b30c57a692f68faab4360533684a",
+      "source_container_format": "JPEG",
+      "output_container_format": "PNG",
+      "dimensions": [
+        1125,
+        2436
+      ],
+      "decoded_rgb_pixels_unchanged": true,
+      "icc_profile_unchanged": true,
+      "source_authenticity_credentials": false,
+      "conflicting_source_rights": [],
+      "creator": "Lace & Leather Arcane Studio",
+      "studio_credit": "Lace & Leather Arcane Studio (portfolio image production and preparation)",
+      "rights_statement_url": "https://blackstagweb.com/ownership.html"
+    }
+  ],
+  "visual_review_note": "All five repaired true-PNG files were individually inspected side-by-side against their original JPEG-byte sources and are visually identical.",
+  "visual_review_approved_paths": [
+    "stag-studio/spw-web.png",
+    "stag-studio/spw-mobile.png",
+    "stag-studio/lace-leather-mobile.png",
+    "stag-studio/leaf-web.png",
+    "stag-studio/leaf-mobile.png"
+  ]
+}
