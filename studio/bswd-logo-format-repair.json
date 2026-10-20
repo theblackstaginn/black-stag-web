@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "path": "stag-studio/bsw-logo.png",
+  "project_owner": "Black Stag Web Design",
+  "production_studio": "Lace & Leather Arcane Studio",
+  "source_sha256": "a09f08860d3df506b4117e2198fe3e4cb8a595cc0690354a4cd0c1aec7c4dc3e",
+  "output_sha256": "e92a20a51d86c3f093280aec9f6ff7c6272baf52fd0ccead276369722e2ee4f4",
+  "source_container_format": "JPEG",
+  "output_container_format": "PNG",
+  "dimensions": [
+    928,
+    766
+  ],
+  "decoded_rgb_pixels_unchanged": true,
+  "icc_profile_unchanged": true,
+  "source_authenticity_credentials": false,
+  "conflicting_source_rights": [],
+  "metadata": {
+    "XMP-dc:Creator": "Lace & Leather Arcane Studio",
+    "XMP-dc:Rights": "Copyright 2026 Black Stag Web Design",
+    "XMP-dc:Description": "Black Stag Web Design logo artwork; produced and prepared by Lace & Leather Arcane Studio.",
+    "XMP-dc:Source": "Lace & Leather Arcane Studio",
+    "XMP-photoshop:Credit": "Lace & Leather Arcane Studio (artwork production and preparation)",
+    "XMP-xmpRights:WebStatement": "https://blackstagweb.com/ownership.html"
+  },
+  "visual_review": "pending",
+  "live_site_code_changed": false
+}
