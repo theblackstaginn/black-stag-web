@@ -36,6 +36,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css?v=2" />
+  <link rel="stylesheet" href="/homepage-facelift.css?v=20261023-mobile2" />
 
   <script type="application/ld+json">
 {
@@ -182,9 +183,10 @@
   </style>
   <!-- Black Stag Web Design: portfolio-owned Meta Pixel -->
   <script src="/bsw-meta-pixel.js?v=20261016" defer></script>
+  <link rel="stylesheet" href="/site-facelift.css?v=20261023" />
 </head>
 
-<body>
+<body class="home studio-page">
   <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2289161921865343&amp;ev=PageView&amp;noscript=1" alt="" /></noscript>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -192,9 +194,10 @@
 
 <header class="site-header">
   <div class="wrap header-inner">
-    <span class="brand-main">Black Stag Web Design</span>
-    <div class="brand"></div>
-
+    <a class="home-brand" href="#top" aria-label="Black Stag Web Design home">
+      <img src="/assets/bswd-header-mark.webp" alt="" width="48" height="48" />
+      <span><strong>Black Stag</strong><small>Web Design</small></span>
+    </a>
     <nav class="main-nav" aria-label="Primary navigation">
       <a href="#work">Work</a>
       <a href="#services">Services</a>
@@ -203,70 +206,309 @@
       <a href="/ownership.html">Ownership</a>
       <a href="/faq.html">FAQ</a>
     </nav>
+    <a class="header-checkup" href="/website-checkup.html">Free website checkup <span aria-hidden="true">↗</span></a>
   </div>
 </header>
 
 <main id="main">
-
-  <img
-    src="/stag-studio/bsw-logo.png"
-    alt="Black Stag Web Design logo"
-    class="brand-logo"
-    loading="eager"
-    decoding="async"
-  />
-
-  <section class="hero" id="top">
+  <section class="hero" id="top" aria-labelledby="hero-heading">
+    <figure class="hero-visual">
+      <picture>
+      <source media="(max-width: 760px)" srcset="/assets/black-stag-north-georgia-hero-mobile.webp?v=2" width="1122" height="1152" />
+      <img
+        src="/assets/black-stag-north-georgia-hero-devices.webp"
+        alt="Cavalier Country Farm’s original Bob and Karen desktop screenshot and paired mobile screenshot displayed on a laptop and phone at a rustic Appalachian mountain workbench."
+        width="924" height="941" fetchpriority="high" decoding="async"
+      />
+      </picture>
+    </figure>
     <div class="wrap hero-inner">
       <div class="hero-copy">
-
-        <h1>North Georgia web design for small businesses who want ownership.</h1>
-
-        <br>
-        <br>
-
-        <p>
-          Sites for small businesses who want to own their online presence.
-          <br>
-          No subscriptions. No platforms. No lock-in.
-          <br>
-          Just a site that loads instantly and keeps working for years.
-        </p>
-
-        <p style="margin-top:.85rem; max-width:60ch;">
-          I build static HTML/CSS/JS websites because they’re faster, more secure, and far more durable than platform-based sites.
-          <br>
-          No plugins to break, no updates that change behavior, and no terms that can shift underneath you.
-        </p>
-
-        <p style="margin-top:.75rem; font-weight:600;">
-          You own the domain, files, and hosting. I don’t hold anything hostage.
-        </p>
-
-        <div class="hero-actions">
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdvh4sgUyHin-EeEdrreMRES-Ah1KbDafmRfiDVcODj7ZKzPg/viewform"
-            class="btn btn-primary"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Start a project
-          </a>
-
-          <a href="/ownership.html" class="btn">Ownership Explained</a>
-
-          <a href="tel:17067250972" class="btn">Call / text</a>
+        <p class="hero-eyebrow">Independent web design · North Georgia</p>
+        <h1 id="hero-heading">Custom Websites<br>for North Georgia<br><span>Businesses</span></h1>
+        <p class="hero-promise">Beautiful. Fast. Mobile-first.<br>You own the site. No required subscriptions.</p>
+        <a class="hero-checkup" href="/website-checkup.html">GET A FREE WEBSITE CHECKUP <span aria-hidden="true">→</span></a>
+        <p class="hero-note">No obligation. Just honest feedback.</p>
+        <div class="hero-utility">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvh4sgUyHin-EeEdrreMRES-Ah1KbDafmRfiDVcODj7ZKzPg/viewform" target="_blank" rel="noopener noreferrer">Start a project</a>
+          <a href="/ownership.html">Ownership explained</a>
+          <a href="tel:17067250972">Call / text</a>
         </div>
-
-        <p style="margin-top:.55rem; opacity:.9;">
-          <strong>Start a project</strong> (Quick intro → clear quote → no pressure)
-        </p>
-
-        <p class="hero-tagline">
-          North Georgia small business websites • Flat fees • No subscriptions • Ownership model.
-        </p>
-
       </div>
+    </div>
+  </section>
+
+  <section class="section" id="work">
+    <div class="wrap">
+
+      <p class="section-kicker">Selected work</p>
+      <h2>Real businesses. Websites built around them.</h2>
+
+      <p class="section-intro">
+        Explore the actual desktop and mobile designs. Open a live site, or read how the project came together.
+      </p>
+
+      <div class="projects-grid">
+
+        <!-- Cavalier Country Farm -->
+        <article class="project project-flagship project-featured">
+          <div class="project-media">
+            <a href="https://cavaliercountry.farm" target="_blank" rel="noopener noreferrer">
+              <img width="2181" height="894"
+                src="./stag-studio/IMG_9966.jpeg"
+                class="shot shot-desktop"
+                alt="Cavalier Country Farm website — desktop view"
+                loading="lazy"
+                decoding="async"
+              />
+
+              <img width="1125" height="2436"
+                src="./stag-studio/IMG_9965.png"
+                class="shot shot-mobile"
+                alt="Cavalier Country Farm website — mobile view"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          </div>
+
+          <div class="project-copy">
+            <h3>Cavalier Country Farm</h3>
+
+            <p class="project-type">
+              Live client site · Family farm · Cavaliers · Cleveland, Georgia
+            </p>
+
+            <p>
+              Rustic, mobile-first farm website built for clear visitor flow,
+              puppy applications, photography inquiries, and future petting zoo requests.
+            </p>
+          <div class="project-links"><a href="https://cavaliercountry.farm" target="_blank" rel="noopener noreferrer">Visit live site <span aria-hidden="true">↗</span></a><a href="/cavalier-country-farm-case-study.html">Read case study <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+
+        <!-- Clearview Kennels -->
+        <article class="project project-flagship project-featured">
+          <div class="project-media">
+            <a href="https://clearviewkennels.com/" target="_blank" rel="noopener noreferrer">
+              <img width="2736" height="1260"
+                src="./stag-studio/ck-web.webp"
+                class="shot shot-desktop"
+                alt="Clearview Kennels website — desktop view"
+                loading="lazy"
+                decoding="async"
+              />
+
+              <img width="1260" height="2736"
+                src="./stag-studio/ck-mobile.webp"
+                class="shot shot-mobile"
+                alt="Clearview Kennels website — mobile view"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          </div>
+
+          <div class="project-copy">
+            <h3>Clearview Kennels</h3>
+
+            <p class="project-type">
+              Live client site · Cavalier &amp; Cavapoo breeder · Marshfield, Missouri
+            </p>
+
+            <p>
+              Responsive breeder website built around puppy discovery, individual puppy profiles,
+              applications, mobile-first navigation, search visibility, and a simple installable
+              web-app experience for returning visitors.
+            </p>
+          <div class="project-links"><a href="https://clearviewkennels.com/" target="_blank" rel="noopener noreferrer">Visit live site <span aria-hidden="true">↗</span></a><a href="/clearview-kennels-case-study.html">Read case study <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+
+        <!-- Stag & Stone Coffee and Bakehouse -->
+        <article class="project project-flagship project-featured">
+          <div class="project-media">
+            <a href="https://stagandstonecoffee.com/" target="_blank" rel="noopener noreferrer">
+              <img width="2736" height="1260"
+                src="./stag-studio/stag-stone-web.PNG"
+                class="shot shot-desktop"
+                alt="Stag & Stone Coffee and Bakehouse website — desktop view"
+                loading="lazy"
+                decoding="async"
+              />
+
+              <img width="1260" height="2736"
+                src="./stag-studio/stag-stone-mobile.PNG"
+                class="shot shot-mobile"
+                alt="Stag & Stone Coffee and Bakehouse website — mobile view"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          </div>
+
+          <div class="project-copy">
+            <h3>Stag &amp; Stone Coffee and Bakehouse</h3>
+
+            <p class="project-type">
+              Live site · Coffee &amp; bakehouse · Clarkesville, Georgia
+            </p>
+
+            <p>
+              Full brand-forward website built for a growing North Georgia coffee
+              and bakehouse, with responsive menu architecture, event-service
+              pages, mobile-first navigation, custom imagery, SEO foundations,
+              and a fast owned-code build.
+            </p>
+          <div class="project-links"><a href="https://stagandstonecoffee.com/" target="_blank" rel="noopener noreferrer">Visit live site <span aria-hidden="true">↗</span></a><a href="/stag-stone-case-study.html">Read case study <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+
+        <!-- Southern Pressure Washing -->
+        <article class="project project-flagship">
+          <div class="project-media">
+            <a href="https://southernpresswashing.com" target="_blank" rel="noopener noreferrer">
+              <img width="1339" height="596"
+                src="./stag-studio/spw-web.png"
+                class="shot shot-desktop"
+                alt="Southern Pressure Washing website — desktop view"
+                loading="lazy"
+                decoding="async"
+              />
+
+              <img width="1125" height="2436"
+                src="./stag-studio/spw-mobile.png"
+                class="shot shot-mobile"
+                alt="Southern Pressure Washing website — mobile view"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          </div>
+
+          <div class="project-copy">
+            <h3>Southern Pressure Washing</h3>
+
+            <p class="project-type">
+              Live client site · Contractor · Mobile cleaning (North Georgia)
+            </p>
+
+            <p>
+              Built for fast load times and local SEO, with a mobile-first layout
+              designed to turn visitors into calls.
+            </p>
+          <div class="project-links"><a href="https://southernpresswashing.com" target="_blank" rel="noopener noreferrer">Visit live site <span aria-hidden="true">↗</span></a><a href="/southern-pressure-washing-case-study.html">Read case study <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+
+        <!-- Lace & Leather -->
+        <article class="project">
+          <div class="project-media">
+            <a href="https://theblackstaginn.github.io/laceandleather/" target="_blank" rel="noopener noreferrer">
+              <img width="1336" height="599"
+                src="./stag-studio/lace-leather-web.png"
+                class="shot shot-desktop"
+                alt="Lace & Leather digital products website — desktop view"
+                loading="lazy"
+                decoding="async"
+              />
+
+              <img width="1125" height="2436"
+                src="./stag-studio/lace-leather-mobile.png"
+                class="shot shot-mobile"
+                alt="Lace & Leather digital products website — mobile view"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          </div>
+
+          <div class="project-copy">
+            <h3>Lace &amp; Leather</h3>
+
+            <p class="project-type">
+              Live site · Digital products · Brand &amp; funnels
+            </p>
+
+            <p>
+              Built for performance and clean product navigation with a durable,
+              owned-code foundation.
+            </p>
+          <div class="project-links"><a href="https://theblackstaginn.github.io/laceandleather/" target="_blank" rel="noopener noreferrer">Visit live site <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+<!-- Leaf Grocery -->
+        <article class="project">
+          <div class="project-media">
+            <a href="https://leafdeli.com/" target="_blank" rel="noopener noreferrer">
+              <img width="1339" height="586"
+                src="./stag-studio/leaf-web.png"
+                class="shot shot-desktop"
+                alt="Leaf Grocery & Deli website concept — desktop view"
+                loading="lazy"
+                decoding="async"
+              />
+
+              <img width="1125" height="2436"
+                src="./stag-studio/leaf-mobile.png"
+                class="shot shot-mobile"
+                alt="Leaf Grocery & Deli website concept — mobile view"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          </div>
+
+          <div class="project-copy">
+            <h3>Leaf Grocery &amp; Deli</h3>
+
+            <p class="project-type">
+              Restaurant/Convenience/Grocery · One-page build
+            </p>
+
+            <p class="project-disclaimer">
+              Live site built for a local convenience, grocery &amp; deli.
+            </p>
+          <div class="project-links"><a href="https://leafdeli.com/" target="_blank" rel="noopener noreferrer">Visit live site <span aria-hidden="true">↗</span></a><a href="/leaf-case-study.html">Read case study <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+
+        <!-- Living Waters -->
+        <article class="project">
+          <div class="project-media">
+            <a href="https://theblackstaginn.github.io/Living-Waters-Aquascapes/" target="_blank" rel="noopener noreferrer">
+              <img width="1536" height="707"
+                src="./stag-studio/lwa-web.webp"
+                class="shot shot-desktop"
+                alt="Living Waters Aquascapes website — desktop view"
+                loading="lazy"
+                decoding="async"
+              />
+
+              <img width="707" height="1536"
+                src="./stag-studio/lwa-mobile.webp"
+                class="shot shot-mobile"
+                alt="Living Waters Aquascapes website — mobile view"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          </div>
+
+          <div class="project-copy">
+            <h3>Living Waters Aquascapes</h3>
+
+            <p class="project-type">
+              Live deployed build · Aquascapes &amp; water features · Custom domain pending
+            </p>
+
+            <p class="project-disclaimer">
+              Responsive site currently live on GitHub Pages while custom domain setup is pending.
+            </p>
+          <div class="project-links"><a href="https://theblackstaginn.github.io/Living-Waters-Aquascapes/" target="_blank" rel="noopener noreferrer">Visit live site <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+</div>
     </div>
   </section>
 
@@ -318,352 +560,64 @@
         Post-launch updates are available at <strong>$60/hr</strong> — only when you need them.
       </p>
 
-      <div style="margin-top:1.25rem;">
-        <h3 style="margin:0 0 .4rem;">How projects work</h3>
-
-        <ul>
-          <li>We agree on page count and scope up front</li>
-          <li>You get a defined number of revision rounds</li>
-          <li>Additional changes are quoted clearly before work begins</li>
-          <li>Once launched, the site is yours — no dependency on me or a platform</li>
-        </ul>
-      </div>
-
-      <p style="margin-top:1.1rem; opacity:.9;">
-        If you’re looking for ongoing content creation, social media management, or a platform-based site, I’m probably not the right fit.
-      </p>
+      <p class="service-note">A clear scope, a clear quote, and support when you need it. Read the <a href="/ownership.html">ownership guide</a> for the details.</p>
 
     </div>
   </section>
 
-  <section class="section" id="work">
+  <section class="section process-section" id="process">
     <div class="wrap">
-
-      <h2>Selected work</h2>
-
-      <p class="section-intro">
-        A mix of live client sites, in-development builds, and concept demos. Click any card to open in a new tab.
-      </p>
-
-      <div class="projects-grid">
-
-        <!-- Cavalier Country Farm -->
-        <article class="project project-flagship project-featured">
-          <div class="project-media">
-            <a href="https://cavaliercountry.farm" target="_blank" rel="noopener noreferrer">
-              <img
-                src="./stag-studio/IMG_9966.jpeg"
-                class="shot shot-desktop"
-                alt="Cavalier Country Farm website — desktop view"
-                loading="lazy"
-                decoding="async"
-              />
-
-              <img
-                src="./stag-studio/IMG_9965.png"
-                class="shot shot-mobile"
-                alt="Cavalier Country Farm website — mobile view"
-                loading="lazy"
-                decoding="async"
-              />
-            </a>
-          </div>
-
-          <div class="project-copy">
-            <h3>Cavalier Country Farm</h3>
-
-            <p class="project-type">
-              Live client site · Family farm · Cavaliers · Cleveland, Georgia
-            </p>
-
-            <p>
-              Rustic, mobile-first farm website built for clear visitor flow,
-              puppy applications, photography inquiries, and future petting zoo requests.
-            </p>
-          </div>
-        </article>
-
-        <!-- Clearview Kennels -->
-        <article class="project project-flagship project-featured">
-          <div class="project-media">
-            <a href="https://clearviewkennels.com/" target="_blank" rel="noopener noreferrer">
-              <img
-                src="./stag-studio/ck-web.webp"
-                class="shot shot-desktop"
-                alt="Clearview Kennels website — desktop view"
-                loading="lazy"
-                decoding="async"
-              />
-
-              <img
-                src="./stag-studio/ck-mobile.webp"
-                class="shot shot-mobile"
-                alt="Clearview Kennels website — mobile view"
-                loading="lazy"
-                decoding="async"
-              />
-            </a>
-          </div>
-
-          <div class="project-copy">
-            <h3>Clearview Kennels</h3>
-
-            <p class="project-type">
-              Live client site · Cavalier &amp; Cavapoo breeder · Marshfield, Missouri
-            </p>
-
-            <p>
-              Responsive breeder website built around puppy discovery, individual puppy profiles,
-              applications, mobile-first navigation, search visibility, and a simple installable
-              web-app experience for returning visitors.
-            </p>
-          </div>
-        </article>
-
-        <!-- Stag & Stone Coffee and Bakehouse -->
-        <article class="project project-flagship project-featured">
-          <div class="project-media">
-            <a href="https://stagandstonecoffee.com/" target="_blank" rel="noopener noreferrer">
-              <img
-                src="./stag-studio/stag-stone-web.PNG"
-                class="shot shot-desktop"
-                alt="Stag & Stone Coffee and Bakehouse website — desktop view"
-                loading="lazy"
-                decoding="async"
-              />
-
-              <img
-                src="./stag-studio/stag-stone-mobile.PNG"
-                class="shot shot-mobile"
-                alt="Stag & Stone Coffee and Bakehouse website — mobile view"
-                loading="lazy"
-                decoding="async"
-              />
-            </a>
-          </div>
-
-          <div class="project-copy">
-            <h3>Stag &amp; Stone Coffee and Bakehouse</h3>
-
-            <p class="project-type">
-              Live site · Coffee &amp; bakehouse · Clarkesville, Georgia
-            </p>
-
-            <p>
-              Full brand-forward website built for a growing North Georgia coffee
-              and bakehouse, with responsive menu architecture, event-service
-              pages, mobile-first navigation, custom imagery, SEO foundations,
-              and a fast owned-code build.
-            </p>
-          </div>
-        </article>
-
-        <!-- Southern Pressure Washing -->
-        <article class="project project-flagship">
-          <div class="project-media">
-            <a href="https://southernpresswashing.com" target="_blank" rel="noopener noreferrer">
-              <img
-                src="./stag-studio/spw-web.png"
-                class="shot shot-desktop"
-                alt="Southern Pressure Washing website — desktop view"
-                loading="lazy"
-                decoding="async"
-              />
-
-              <img
-                src="./stag-studio/spw-mobile.png"
-                class="shot shot-mobile"
-                alt="Southern Pressure Washing website — mobile view"
-                loading="lazy"
-                decoding="async"
-              />
-            </a>
-          </div>
-
-          <div class="project-copy">
-            <h3>Southern Pressure Washing</h3>
-
-            <p class="project-type">
-              Live client site · Contractor · Mobile cleaning (North Georgia)
-            </p>
-
-            <p>
-              Built for fast load times and local SEO, with a mobile-first layout
-              designed to turn visitors into calls.
-            </p>
-          </div>
-        </article>
-
-        <!-- Lace & Leather -->
-        <article class="project">
-          <div class="project-media">
-            <a href="https://theblackstaginn.github.io/laceandleather/" target="_blank" rel="noopener noreferrer">
-              <img
-                src="./stag-studio/lace-leather-web.png"
-                class="shot shot-desktop"
-                alt="Lace & Leather digital products website — desktop view"
-                loading="lazy"
-                decoding="async"
-              />
-
-              <img
-                src="./stag-studio/lace-leather-mobile.png"
-                class="shot shot-mobile"
-                alt="Lace & Leather digital products website — mobile view"
-                loading="lazy"
-                decoding="async"
-              />
-            </a>
-          </div>
-
-          <div class="project-copy">
-            <h3>Lace &amp; Leather</h3>
-
-            <p class="project-type">
-              Live site · Digital products · Brand &amp; funnels
-            </p>
-
-            <p>
-              Built for performance and clean product navigation with a durable,
-              owned-code foundation.
-            </p>
-          </div>
-        </article>
-<!-- Leaf Grocery -->
-        <article class="project">
-          <div class="project-media">
-            <a href="https://leafdeli.com/" target="_blank" rel="noopener noreferrer">
-              <img
-                src="./stag-studio/leaf-web.png"
-                class="shot shot-desktop"
-                alt="Leaf Grocery & Deli website concept — desktop view"
-                loading="lazy"
-                decoding="async"
-              />
-
-              <img
-                src="./stag-studio/leaf-mobile.png"
-                class="shot shot-mobile"
-                alt="Leaf Grocery & Deli website concept — mobile view"
-                loading="lazy"
-                decoding="async"
-              />
-            </a>
-          </div>
-
-          <div class="project-copy">
-            <h3>Leaf Grocery &amp; Deli</h3>
-
-            <p class="project-type">
-              Restaurant/Convenience/Grocery · One-page build
-            </p>
-
-            <p class="project-disclaimer">
-              Live site built for a local convenience, grocery &amp; deli.
-            </p>
-          </div>
-        </article>
-
-        <!-- Living Waters -->
-        <article class="project">
-          <div class="project-media">
-            <a href="https://theblackstaginn.github.io/Living-Waters-Aquascapes/" target="_blank" rel="noopener noreferrer">
-              <img
-                src="./stag-studio/lwa-web.webp"
-                class="shot shot-desktop"
-                alt="Living Waters Aquascapes website — desktop view"
-                loading="lazy"
-                decoding="async"
-              />
-
-              <img
-                src="./stag-studio/lwa-mobile.webp"
-                class="shot shot-mobile"
-                alt="Living Waters Aquascapes website — mobile view"
-                loading="lazy"
-                decoding="async"
-              />
-            </a>
-          </div>
-
-          <div class="project-copy">
-            <h3>Living Waters Aquascapes</h3>
-
-            <p class="project-type">
-              Live deployed build · Aquascapes &amp; water features · Custom domain pending
-            </p>
-
-            <p class="project-disclaimer">
-              Responsive site currently live on GitHub Pages while custom domain setup is pending.
-            </p>
-          </div>
-        </article>
-</div>
+      <p class="section-kicker">The process</p>
+      <h2>From first conversation to a site you own.</h2>
+      <ol class="process-grid">
+        <li><h3>Start with a conversation</h3><p>Share your current site, your business, and what you need customers to do. A free checkup is a useful place to start.</p><a href="/website-checkup.html">Get a free website checkup →</a></li>
+        <li><h3>Agree on the build</h3><p>We define the pages, content, price, and revision rounds before work begins. A 50% deposit books the project.</p></li>
+        <li><h3>Launch with ownership</h3><p>The remaining 50% is due at launch. Your domain, site files, and hosting stay in your control. Updates are available when you need them.</p><a href="/ownership.html">What ownership means →</a></li>
+      </ol>
     </div>
   </section>
 
   <section class="section" id="about">
     <div class="wrap">
 
-      <h2>About Black Stag Web Design</h2>
-
-      <p class="section-intro">
-        I build custom-coded websites for small businesses that value clarity over gimmicks and actual ownership over rented platforms.
-        The result is durable infrastructure: fast load times, clean structure for SEO, and a site you control.
-        <br><br>
-        You own the domain, files, and hosting. I don’t hold anything hostage.
-        <br><br>
-        If you’re not sure which kind of site you have now, read the
-        <a href="/ownership.html">Ownership guide</a>
-        or skim the
-        <a href="/faq.html">FAQ</a>.
-      </p>
-
+      <div class="about-layout">
+        <div><p class="section-kicker">Independent. Local. Hands-on.</p><h2>Built with care.<br>Rooted in North Georgia.</h2></div>
+        <div class="about-story"><p>I’m based in Cleveland, Georgia, and I build custom websites for independent businesses that want a solid home online.</p><p>I work directly with you to make the site clear, easy to use on a phone, and shaped around your business. The goal is straightforward: help customers understand what you offer and take the next step.</p><p>You own the domain, files, and hosting. I don’t hold anything hostage.</p><a href="/ownership.html">Read the ownership guide →</a> <a href="/faq.html">Common questions →</a></div>
+      </div>
     </div>
   </section>
 
-  <section class="section" id="pages">
-    <div class="wrap">
-
-      <h2>Service pages</h2>
-
-      <p class="section-intro">
-        Industry-specific pages built around what actually converts on phones in North Georgia.
-      </p>
-
-      <ul class="link-list">
+  <section class="section resources-section" id="pages"><div class="wrap"><p class="section-kicker">Explore Black Stag</p><h2>A closer look at the work and the approach.</h2><div class="resource-grid"><nav class="resource-group" aria-label="Services & industries"><h3>Services & industries</h3><ul class="link-list">
         <li><a href="/north-georgia-web-design.html">North Georgia Web Design</a></li>
         <li><a href="/restaurants-food-trucks.html">Restaurants &amp; Food Trucks</a></li>
         <li><a href="/contractors-trades.html">Contractors &amp; Trades</a></li>
         <li><a href="/salons-tattoo.html">Salons &amp; Tattoo Studios</a></li>
         <li><a href="/dog-breeder-website-design.html">Dog Breeders &amp; Kennels</a></li>
-      </ul>
-
-      <h3 style="margin-top:18px;">Guides</h3>
-
-      <ul class="link-list">
+      </ul></nav><nav class="resource-group" aria-label="Ownership & guides"><h3>Ownership & guides</h3><ul class="link-list">
         <li><a href="/website-checkup.html">Website Checkup for Small Businesses</a></li>
         <li><a href="/ownership.html">Website Ownership vs Rental</a></li>
         <li><a href="/faq.html">FAQ: Ownership, Platforms, Pricing</a></li>
-      </ul>
-
-      <h3 style="margin-top:18px;">Case studies</h3>
-
-      <ul class="link-list">
+      </ul></nav><nav class="resource-group" aria-label="Project case studies"><h3>Project case studies</h3><ul class="link-list">
         <li><a href="/clearview-kennels-case-study.html">Clearview Kennels (Case Study)</a></li>
         <li><a href="/stag-stone-case-study.html">Stag &amp; Stone Coffee and Bakehouse (Case Study)</a></li>
         <li><a href="/cavalier-country-farm-case-study.html">Cavalier Country Farm (Case Study)</a></li>
         <li><a href="/southern-pressure-washing-case-study.html">Southern Pressure Washing (Case Study)</a></li>
         <li><a href="/leaf-case-study.html">Leaf Grocery &amp; Deli (Case Study)</a></li>
-      </ul>
+      </ul></nav></div></div></section>
 
-    </div>
-  </section>
+  <section class="section home-questions" id="home-faq"><div class="wrap"><p class="section-kicker">A few useful answers</p><h2>Before we get started.</h2><div class="question-list">
+      <details><summary>How much does a site cost?</summary><p>One-page builds are $250–$600. Builds of up to five pages are $800–$2,000. We agree on the scope and quote before work begins.</p></details>
+      <details><summary>Do I own the site when it’s done?</summary><p>Yes. You own the domain, site files, and hosting. No required website subscription or lock-in. Domain renewals and any chosen services remain under your control.</p></details>
+      <details><summary>What areas do you serve?</summary><p>Based in Cleveland, Georgia, and serving small businesses across North Georgia.</p></details>
+    </div><a class="text-link" href="/faq.html">Read all frequently asked questions →</a></div></section>
 
   <section class="section" id="contact">
     <div class="wrap">
 
-      <h2>Ready to talk?</h2>
+      <p class="section-kicker">Let’s look at what you need</p>
+      <h2>Your next step can be a simple checkup.</h2>
+      <p class="contact-invite">Send me your current website or social page. I’ll take a practical look and give you honest feedback.</p>
+      <a class="hero-checkup closing-checkup" href="/website-checkup.html">GET A FREE WEBSITE CHECKUP <span aria-hidden="true">→</span></a>
 
       <p class="section-intro">
         Most projects fall between <strong>$250 and $1000</strong>.
@@ -779,40 +733,7 @@
 
     </div>
 
-    <section class="section" id="home-faq">
-      <div class="wrap">
 
-        <h2>Quick answers</h2>
-
-        <div style="max-width:70ch; margin:0 auto; text-align:center;">
-
-          <h3 style="margin:.8rem 0 .25rem;">
-            How much does a site cost?
-          </h3>
-
-          <p class="section-intro">
-            Most projects fall between $250 and $1000, depending on scope and page count.
-          </p>
-
-          <h3 style="margin:.8rem 0 .25rem;">
-            Do I own the site when it’s done?
-          </h3>
-
-          <p class="section-intro">
-            Yes. You own the domain, files, and hosting. No subscriptions, no lock-in.
-          </p>
-
-          <h3 style="margin:.8rem 0 .25rem;">
-            What areas do you serve?
-          </h3>
-
-          <p class="section-intro">
-            Based in Cleveland, GA and serving North Georgia.
-          </p>
-
-        </div>
-      </div>
-    </section>
 
     <p style="margin-top:.6rem; text-align:center;">
       Website by:

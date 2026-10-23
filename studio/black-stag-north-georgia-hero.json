@@ -1,0 +1,61 @@
+{
+  "method": "Pillow perspective composite; no client content generated or redrawn; complete screenshots contained at their original proportions",
+  "sources": {
+    "hero-inputs/Golden Hour Farm Website Showcase.png": "3310e61048fbbdf22536592a970da058baf125039ba59ddae91aaa0be6868dd5",
+    "black-stag-web/stag-studio/IMG_9966.jpeg": "0958dd92e7e2ad36cce6de9e7e38aadd0c0560710ab6e4d77b9d2e2a2a4cf47a",
+    "black-stag-web/stag-studio/IMG_9965.png": "733b52c4be3ba768465d996c14c405e0578b3135ca8773681a3811de61742f34"
+  },
+  "exposure_rgb_multipliers": [
+    0.94,
+    0.93,
+    0.91
+  ],
+  "laptop_corners": [
+    [
+      788,
+      277
+    ],
+    [
+      1437,
+      287
+    ],
+    [
+      1394,
+      766
+    ],
+    [
+      751,
+      727
+    ]
+  ],
+  "phone_corners": [
+    [
+      1423,
+      383
+    ],
+    [
+      1608,
+      390
+    ],
+    [
+      1588,
+      835
+    ],
+    [
+      1403,
+      826
+    ]
+  ],
+  "copy": "Custom Websites / for North Georgia / Businesses; Beautiful. Fast. Mobile-first. / You own the site. No required subscriptions. / GET A FREE WEBSITE CHECKUP \u2192",
+  "mobile": {
+    "dimensions": [
+      1122,
+      1152
+    ],
+    "method": "Generate portrait environment with blank screens, then deterministically perspective-fit the two exact original repository screenshots. Show the complete laptop and phone, retain screenshot proportions, and trim excess sky only. Live HTML copy flows above the image.",
+    "environment": "generated_images/exec-6c1e8ab3-d107-4252-b521-7eb9dca549d9.png",
+    "environment_sha256": "1235e7e001123270baf18381a741336cd5a80c4b1a29d2d681d602ecb53007bf",
+    "master": "black-stag-north-georgia-hero-mobile-v2-master.png",
+    "production": "assets/black-stag-north-georgia-hero-mobile.webp"
+  }
+}
