@@ -49,11 +49,13 @@
   "copy": "Custom Websites / for North Georgia / Businesses; Beautiful. Fast. Mobile-first. / You own the site. No required subscriptions. / GET A FREE WEBSITE CHECKUP \u2192",
   "mobile": {
     "dimensions": [
-      1080,
-      2160
+      1122,
+      1152
     ],
-    "method": "Portrait composition from keeper foliage and corrected device scene; all screenshots keep their proportions; live HTML text overlays the production art",
-    "master": "black-stag-north-georgia-hero-mobile-master.png",
+    "method": "Generate portrait environment with blank screens, then deterministically perspective-fit the two exact original repository screenshots. Show the complete laptop and phone, retain screenshot proportions, and trim excess sky only. Live HTML copy flows above the image.",
+    "environment": "generated_images/exec-6c1e8ab3-d107-4252-b521-7eb9dca549d9.png",
+    "environment_sha256": "1235e7e001123270baf18381a741336cd5a80c4b1a29d2d681d602ecb53007bf",
+    "master": "black-stag-north-georgia-hero-mobile-v2-master.png",
     "production": "assets/black-stag-north-georgia-hero-mobile.webp"
   }
 }
