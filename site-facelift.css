@@ -196,3 +196,62 @@ body.studio-page {
   .studio-page #page { scroll-behavior: auto; }
   .studio-page .btn { transition: none; }
 }
+
+/* Copper actions and softer edges across the shared site. */
+body.studio-page {
+  --radius: 18px;
+  --radius-card: 18px;
+  --radius-control: 12px;
+  --radius-image: 10px;
+}
+.studio-page :is(.btn,.hero-checkup,.header-checkup,.studio-header-cta,.project-links a,.hero-utility a,.process-grid a[href="/website-checkup.html"],.contact-block a[href^="tel:"],.contact-block a[href^="https://docs.google.com/forms/"]) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 46px;
+  max-width: 100%;
+  padding: 12px 18px;
+  border: 1px solid #bd8657;
+  border-radius: var(--radius-control);
+  background: linear-gradient(#37150655,#37150655),url('/copper-btn.webp') center/cover,#90522c;
+  color: #fff3df !important;
+  box-shadow: inset 0 1px 0 #ffe0b51f,0 4px 14px #0002;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+}
+.studio-page :is(.btn,.hero-checkup,.header-checkup,.studio-header-cta,.project-links a,.hero-utility a,.process-grid a[href="/website-checkup.html"],.contact-block a[href^="tel:"],.contact-block a[href^="https://docs.google.com/forms/"]):hover {
+  filter: brightness(1.12);
+  border-color: #e0ac7d;
+  transform: none;
+}
+.studio-page :is(.btn,.hero-checkup,.header-checkup,.studio-header-cta,.project-links a,.hero-utility a):active { filter: brightness(.95); }
+.studio-page .site-header a:is(.header-checkup,.studio-header-cta) { font-size: 12px; padding: 12px 15px; }
+.studio-page.home a.hero-checkup { min-height: 58px; padding: 18px 24px; font-size: 13px; }
+.home .hero-utility { flex-wrap: wrap; gap: 10px; }
+.studio-page.home .hero-utility a { font-size: 12px; padding: 10px 13px; }
+.home .project-links { width: 100%; gap: 10px; }
+.studio-page.home .project-links a { font-size: 13px; padding: 11px 15px; }
+.home :is(.project,#services .offer-card,.resource-group,.contact-block),
+.studio-page.checkup-page :is(.checkup-point,.checkup-card),
+.studio-page.privacy-page .privacy-panel,
+.case-showcase figure { border-radius: var(--radius-card); }
+.home .project-media { border-radius: var(--radius-card) var(--radius-card) 0 0; }
+.home .shot,.case-pair img { border-radius: var(--radius-image); }
+.studio-page.checkup-page .field :is(input,select,textarea) { border-radius: var(--radius-control); }
+.studio-page.checkup-page input[type="checkbox"] { border-radius: 4px; }
+@media (min-width: 761px) {
+  .home .project:first-child .project-media { border-radius: var(--radius-card) 0 0 var(--radius-card); }
+}
+@media (max-width: 760px) {
+  .studio-page .site-header a:is(.header-checkup,.studio-header-cta) { max-width: 100px; font-size: 10px; padding: 10px; text-align: left; }
+  .studio-page.home a.hero-checkup { min-height: 54px; padding: 15px 13px; font-size: 12px; }
+  .home .hero-utility { gap: 8px; }
+  .studio-page.home .hero-utility a { flex: 1 1 auto; font-size: 11px; padding: 10px; }
+  .studio-page.home .project-links a { flex: 1 1 auto; }
+  .home .hero-visual { border-radius: 18px 18px 0 0; overflow: hidden; }
+}
