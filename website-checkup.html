@@ -286,6 +286,7 @@
     }
   </style>
   <link rel="stylesheet" href="/site-facelift.css?v=20261023b" />
+  <link rel="stylesheet" href="/checkup-hero.css?v=20261023" />
 </head>
 
 <body class="checkup-page studio-page inner-page">
@@ -304,18 +305,41 @@
 
     <main id="main">
 
-      <section class="hero">
-        <div class="wrap hero-inner">
+      <section class="hero checkup-hero" aria-labelledby="checkup-heading">
+        <div class="wrap hero-inner checkup-hero-layout">
           <div class="hero-copy">
-            <p class="checkup-kicker">Website checkup</p>
-            <h1>Is your website helping customers take the next step?</h1>
-            <p class="checkup-lede">
-              Send me your site and I’ll take a practical look at the things that matter most on a phone:
-              what customers see first, how easily they can contact you, and whether your website feels like
-              an asset you control.
-            </p>
-
-            <div class="checkup-points" aria-label="What the checkup covers">
+            <p class="checkup-kicker">Free website checkup · North Georgia</p>
+            <h1 id="checkup-heading">Know what’s wrong <span>before you spend.</span></h1>
+            <p class="checkup-lede">Send me your site. I’ll check mobile clarity, customer actions, and ownership—and explain what’s worth fixing in plain English.</p>
+            <a class="btn checkup-hero-cta" href="#checkupForm">GET MY FREE CHECKUP <span aria-hidden="true">→</span></a>
+            <p class="checkup-hero-note">Free. No obligation. No generic agency pitch.</p>
+          </div>
+          <figure class="checkup-hero-image diagnostic-board" aria-label="A practical website review: mobile clarity, customer actions, and ownership">
+            <div class="diagnostic-board-label"><span class="inspection-icon" aria-hidden="true"></span><span>A closer look at your website</span></div>
+            <div class="diagnostic-workspace">
+              <div class="diagnostic-sheet">
+                <span class="diagnostic-clip" aria-hidden="true"></span>
+                <p class="diagnostic-sheet-kicker">Black Stag · Website review</p>
+                <h2>Know what’s<br>worth fixing.</h2>
+                <ol class="diagnostic-checks">
+                  <li><span aria-hidden="true">01</span><div><strong>Mobile clarity</strong><small>Easy to read. Easy to use.</small></div></li>
+                  <li><span aria-hidden="true">02</span><div><strong>Customer actions</strong><small>A clear next step.</small></div></li>
+                  <li><span aria-hidden="true">03</span><div><strong>Ownership</strong><small>Know what you control.</small></div></li>
+                </ol>
+                <p class="diagnostic-sheet-footer">Practical feedback.<br>In plain English.</p>
+              </div>
+              <div class="diagnostic-phone">
+                <img src="/assets/black-stag-checkup-client-mobile.webp" width="600" height="1299" alt="An actual Southern Pressure Washing mobile website, shown as an example of Black Stag client work." fetchpriority="high" decoding="async" />
+              </div>
+            </div>
+            <div class="diagnostic-outcomes"><span class="diagnostic-outcomes-label">Find your next step</span><p><span>Keep</span><b aria-hidden="true">/</b><span>Fix</span><b aria-hidden="true">/</b><span>Rebuild</span></p></div>
+            <figcaption>Illustration of the review process · Client example: Southern Pressure Washing</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="checkup-coverage" aria-label="What the checkup covers">
+        <div class="wrap">
+          <div class="checkup-points" aria-label="What the checkup covers">
               <article class="checkup-point">
                 <h2>Mobile clarity</h2>
                 <p>Can a customer understand what you do and what to tap next without hunting for it?</p>
@@ -331,11 +355,6 @@
                 <p>Are calls, directions, inquiries, menus, services, or other important actions easy to reach?</p>
               </article>
             </div>
-
-            <p class="trust-note">
-              No pressure and no generic agency pitch. If I see something useful, I’ll explain it in plain English.
-            </p>
-          </div>
         </div>
       </section>
 
