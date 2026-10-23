@@ -36,6 +36,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css?v=2" />
+  <link rel="stylesheet" href="/homepage-facelift.css?v=20261023" />
 
   <script type="application/ld+json">
 {
@@ -184,7 +185,7 @@
   <script src="/bsw-meta-pixel.js?v=20261016" defer></script>
 </head>
 
-<body>
+<body class="home">
   <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2289161921865343&amp;ev=PageView&amp;noscript=1" alt="" /></noscript>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -192,9 +193,10 @@
 
 <header class="site-header">
   <div class="wrap header-inner">
-    <span class="brand-main">Black Stag Web Design</span>
-    <div class="brand"></div>
-
+    <a class="home-brand" href="#top" aria-label="Black Stag Web Design home">
+      <img src="/assets/bswd-header-mark.webp" alt="" width="48" height="48" />
+      <span><strong>Black Stag</strong><small>Web Design</small></span>
+    </a>
     <nav class="main-nav" aria-label="Primary navigation">
       <a href="#work">Work</a>
       <a href="#services">Services</a>
@@ -203,69 +205,34 @@
       <a href="/ownership.html">Ownership</a>
       <a href="/faq.html">FAQ</a>
     </nav>
+    <a class="header-checkup" href="/website-checkup.html">Free website checkup <span aria-hidden="true">↗</span></a>
   </div>
 </header>
 
 <main id="main">
-
-  <img
-    src="/stag-studio/bsw-logo.png"
-    alt="Black Stag Web Design logo"
-    class="brand-logo"
-    loading="eager"
-    decoding="async"
-  />
-
-  <section class="hero" id="top">
+  <section class="hero" id="top" aria-labelledby="hero-heading">
+    <figure class="hero-visual">
+      <picture>
+      <source media="(max-width: 760px)" srcset="/assets/black-stag-north-georgia-hero-mobile.webp" width="1080" height="2160" />
+      <img
+        src="/assets/black-stag-north-georgia-hero-devices.webp"
+        alt="Cavalier Country Farm’s original Bob and Karen desktop screenshot and paired mobile screenshot displayed on a laptop and phone at a rustic Appalachian mountain workbench."
+        width="924" height="941" fetchpriority="high" decoding="async"
+      />
+      </picture>
+    </figure>
     <div class="wrap hero-inner">
       <div class="hero-copy">
-
-        <h1>North Georgia web design for small businesses who want ownership.</h1>
-
-        <br>
-        <br>
-
-        <p>
-          Sites for small businesses who want to own their online presence.
-          <br>
-          No subscriptions. No platforms. No lock-in.
-          <br>
-          Just a site that loads instantly and keeps working for years.
-        </p>
-
-        <p style="margin-top:.85rem; max-width:60ch;">
-          I build static HTML/CSS/JS websites because they’re faster, more secure, and far more durable than platform-based sites.
-          <br>
-          No plugins to break, no updates that change behavior, and no terms that can shift underneath you.
-        </p>
-
-        <p style="margin-top:.75rem; font-weight:600;">
-          You own the domain, files, and hosting. I don’t hold anything hostage.
-        </p>
-
-        <div class="hero-actions">
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdvh4sgUyHin-EeEdrreMRES-Ah1KbDafmRfiDVcODj7ZKzPg/viewform"
-            class="btn btn-primary"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Start a project
-          </a>
-
-          <a href="/ownership.html" class="btn">Ownership Explained</a>
-
-          <a href="tel:17067250972" class="btn">Call / text</a>
+        <p class="hero-eyebrow">Independent web design · North Georgia</p>
+        <h1 id="hero-heading">Custom Websites<br>for North Georgia<br><span>Businesses</span></h1>
+        <p class="hero-promise">Beautiful. Fast. Mobile-first.<br>You own the site. No required subscriptions.</p>
+        <a class="hero-checkup" href="/website-checkup.html">GET A FREE WEBSITE CHECKUP <span aria-hidden="true">→</span></a>
+        <p class="hero-note">No obligation. Just honest feedback.</p>
+        <div class="hero-utility">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvh4sgUyHin-EeEdrreMRES-Ah1KbDafmRfiDVcODj7ZKzPg/viewform" target="_blank" rel="noopener noreferrer">Start a project</a>
+          <a href="/ownership.html">Ownership explained</a>
+          <a href="tel:17067250972">Call / text</a>
         </div>
-
-        <p style="margin-top:.55rem; opacity:.9;">
-          <strong>Start a project</strong> (Quick intro → clear quote → no pressure)
-        </p>
-
-        <p class="hero-tagline">
-          North Georgia small business websites • Flat fees • No subscriptions • Ownership model.
-        </p>
-
       </div>
     </div>
   </section>

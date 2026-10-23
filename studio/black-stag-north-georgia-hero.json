@@ -1,0 +1,59 @@
+{
+  "method": "Pillow perspective composite; no client content generated or redrawn; complete screenshots contained at their original proportions",
+  "sources": {
+    "hero-inputs/Golden Hour Farm Website Showcase.png": "3310e61048fbbdf22536592a970da058baf125039ba59ddae91aaa0be6868dd5",
+    "black-stag-web/stag-studio/IMG_9966.jpeg": "0958dd92e7e2ad36cce6de9e7e38aadd0c0560710ab6e4d77b9d2e2a2a4cf47a",
+    "black-stag-web/stag-studio/IMG_9965.png": "733b52c4be3ba768465d996c14c405e0578b3135ca8773681a3811de61742f34"
+  },
+  "exposure_rgb_multipliers": [
+    0.94,
+    0.93,
+    0.91
+  ],
+  "laptop_corners": [
+    [
+      788,
+      277
+    ],
+    [
+      1437,
+      287
+    ],
+    [
+      1394,
+      766
+    ],
+    [
+      751,
+      727
+    ]
+  ],
+  "phone_corners": [
+    [
+      1423,
+      383
+    ],
+    [
+      1608,
+      390
+    ],
+    [
+      1588,
+      835
+    ],
+    [
+      1403,
+      826
+    ]
+  ],
+  "copy": "Custom Websites / for North Georgia / Businesses; Beautiful. Fast. Mobile-first. / You own the site. No required subscriptions. / GET A FREE WEBSITE CHECKUP \u2192",
+  "mobile": {
+    "dimensions": [
+      1080,
+      2160
+    ],
+    "method": "Portrait composition from keeper foliage and corrected device scene; all screenshots keep their proportions; live HTML text overlays the production art",
+    "master": "black-stag-north-georgia-hero-mobile-master.png",
+    "production": "assets/black-stag-north-georgia-hero-mobile.webp"
+  }
+}
