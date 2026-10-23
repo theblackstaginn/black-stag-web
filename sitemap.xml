@@ -3,7 +3,7 @@
 
   <url>
     <loc>https://blackstagweb.com/</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -24,7 +24,7 @@
 
   <url>
     <loc>https://blackstagweb.com/website-checkup.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -73,21 +73,21 @@
 
   <url>
     <loc>https://blackstagweb.com/clearview-kennels-case-study.html</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://blackstagweb.com/stag-stone-case-study.html</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://blackstagweb.com/cavalier-country-farm-case-study.html</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -104,6 +104,20 @@
     <lastmod>2026-10-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://blackstagweb.com/clarkesville-ga-web-design.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://blackstagweb.com/dog-breeder-website-design.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
