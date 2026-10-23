@@ -92,3 +92,149 @@
 @media (max-width: 760px) {
   .studio-page.checkup-page .checkup-hero h1 { font-size: clamp(43px,12vw,62px); margin-bottom: 20px; }
 }
+
+
+/* Website Checkup request section polish */
+.studio-page.checkup-page .checkup-request-section {
+  background: #eee6d7;
+}
+.studio-page.checkup-page .checkup-request-section .checkup-grid {
+  gap: 24px;
+}
+.studio-page.checkup-page .checkup-info-card,
+.studio-page.checkup-page .checkup-form-card {
+  border-radius: 24px;
+  padding: 32px;
+}
+.studio-page.checkup-page .checkup-card-kicker {
+  margin: 0 0 10px;
+  color: #8a542d;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.studio-page.checkup-page .checkup-info-card > h2,
+.studio-page.checkup-page .checkup-form-card > h2 {
+  margin-bottom: 18px;
+}
+.studio-page.checkup-page .checkup-next-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: checkup-step;
+}
+.studio-page.checkup-page .checkup-next-list li {
+  counter-increment: checkup-step;
+  display: grid;
+  grid-template-columns: 38px minmax(0,1fr);
+  gap: 12px;
+  align-items: start;
+  margin: 0;
+  padding: 14px 0;
+  border-bottom: 1px solid #d8cbb8;
+}
+.studio-page.checkup-page .checkup-next-list li:last-child {
+  border-bottom: 0;
+}
+.studio-page.checkup-page .checkup-next-list li::before {
+  content: '0' counter(checkup-step);
+  color: #9a6338;
+  font: 400 22px/1 Georgia, serif;
+}
+.studio-page.checkup-page .checkup-next-list span {
+  color: #554b3f;
+  line-height: 1.7;
+}
+.studio-page.checkup-page .checkup-approach {
+  margin-top: 26px;
+  padding-top: 24px;
+  border-top: 1px solid #cdbda6;
+}
+.studio-page.checkup-page .checkup-approach h3 {
+  margin: 0 0 14px;
+}
+.studio-page.checkup-page .checkup-approach p {
+  margin-bottom: 18px;
+}
+.studio-page.checkup-page .checkup-approach-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.studio-page.checkup-page .checkup-approach-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 46px;
+  padding: 11px 15px;
+  border: 1px solid #b8997c;
+  border-radius: 12px;
+  background: #f2e8da;
+  color: #80431e !important;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+}
+.studio-page.checkup-page .checkup-approach-actions a:hover {
+  background: #eadac8;
+}
+.studio-page.checkup-page .checkup-form-intro {
+  margin: 0 0 16px;
+  color: #625747;
+  font-size: 15px;
+  line-height: 1.7;
+}
+.studio-page.checkup-page .checkup-form-note {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 22px;
+  padding: 9px 12px;
+  border: 1px solid #c9ad8e;
+  border-radius: 999px;
+  background: #f1e7d7;
+  color: #7b4a26;
+  font-size: 13px;
+  font-weight: 700;
+}
+.studio-page.checkup-page .checkup-form-card .lead-form {
+  gap: 16px;
+}
+.studio-page.checkup-page .checkup-form-card .field {
+  gap: 8px;
+}
+.studio-page.checkup-page .checkup-form-card .field :is(input,select,textarea) {
+  min-height: 52px;
+  padding: 14px 15px;
+}
+.studio-page.checkup-page .checkup-form-card .field textarea {
+  min-height: 140px;
+}
+.studio-page.checkup-page .checkup-form-card .field label {
+  font-weight: 700;
+}
+@media (max-width: 760px) {
+  .studio-page.checkup-page .checkup-request-section {
+    padding-top: 28px;
+  }
+  .studio-page.checkup-page .checkup-request-section .checkup-grid {
+    gap: 18px;
+  }
+  .studio-page.checkup-page .checkup-info-card,
+  .studio-page.checkup-page .checkup-form-card {
+    padding: 24px 20px;
+    border-radius: 22px;
+  }
+  .studio-page.checkup-page .checkup-approach-actions {
+    flex-direction: column;
+  }
+  .studio-page.checkup-page .checkup-approach-actions a {
+    width: 100%;
+  }
+  .studio-page.checkup-page .checkup-form-note {
+    border-radius: 14px;
+    align-items: flex-start;
+  }
+}
