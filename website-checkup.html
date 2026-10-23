@@ -286,6 +286,7 @@
     }
   </style>
   <link rel="stylesheet" href="/site-facelift.css?v=20261023b" />
+  <link rel="stylesheet" href="/checkup-hero.css?v=20261023" />
 </head>
 
 <body class="checkup-page studio-page inner-page">
@@ -304,18 +305,25 @@
 
     <main id="main">
 
-      <section class="hero">
-        <div class="wrap hero-inner">
+      <section class="hero checkup-hero" aria-labelledby="checkup-heading">
+        <div class="wrap hero-inner checkup-hero-layout">
           <div class="hero-copy">
-            <p class="checkup-kicker">Website checkup</p>
-            <h1>Is your website helping customers take the next step?</h1>
-            <p class="checkup-lede">
-              Send me your site and I’ll take a practical look at the things that matter most on a phone:
-              what customers see first, how easily they can contact you, and whether your website feels like
-              an asset you control.
-            </p>
-
-            <div class="checkup-points" aria-label="What the checkup covers">
+            <p class="checkup-kicker">Free website checkup · North Georgia</p>
+            <h1 id="checkup-heading">Keep, Fix,<br><span>or Rebuild?</span></h1>
+            <p class="checkup-lede">Know what your website actually needs before you spend. I’ll take a practical look at mobile clarity, customer actions, and ownership.</p>
+            <a class="btn checkup-hero-cta" href="#checkupForm">GET MY FREE CHECKUP <span aria-hidden="true">→</span></a>
+            <p class="checkup-hero-note">Free. No obligation. No generic agency pitch.</p>
+          </div>
+          <figure class="checkup-hero-image checkup-diagnostic-art">
+            <div class="checkup-art-window">
+              <img src="/assets/black-stag-website-checkup-diagnostic.webp" width="864" height="1536" alt="Keep, Fix, or Rebuild: a conceptual illustration of a website, a layout under review, and a copper wireframe, with leaf, wrench, and mountain symbols above dark stone." fetchpriority="high" decoding="async" />
+            </div>
+          </figure>
+        </div>
+      </section>
+      <section class="checkup-coverage" aria-label="What the checkup covers">
+        <div class="wrap">
+          <div class="checkup-points" aria-label="What the checkup covers">
               <article class="checkup-point">
                 <h2>Mobile clarity</h2>
                 <p>Can a customer understand what you do and what to tap next without hunting for it?</p>
@@ -331,11 +339,6 @@
                 <p>Are calls, directions, inquiries, menus, services, or other important actions easy to reach?</p>
               </article>
             </div>
-
-            <p class="trust-note">
-              No pressure and no generic agency pitch. If I see something useful, I’ll explain it in plain English.
-            </p>
-          </div>
         </div>
       </section>
 

@@ -1,0 +1,94 @@
+/* Checkup hero: supplied diagnostic artwork, with live headline and CTA. */
+.studio-page.checkup-page .checkup-hero {
+  padding: 48px 0;
+  background: #141410;
+  border-bottom: 0;
+}
+.studio-page.checkup-page .checkup-hero-layout {
+  display: grid;
+  grid-template-columns: minmax(0,1.08fr) minmax(0,1fr);
+  gap: 52px;
+  align-items: center;
+}
+.checkup-page .checkup-hero .hero-copy { min-width: 0; }
+.checkup-page .checkup-hero .checkup-kicker {
+  margin: 0 0 20px;
+  color: #d5b490;
+  font-size: 11px;
+  line-height: 1.6;
+  letter-spacing: .13em;
+}
+.studio-page.checkup-page .checkup-hero h1 {
+  max-width: 22ch;
+  margin: 0 0 24px;
+  font-size: clamp(38px,4.2vw,56px);
+  line-height: 1.12;
+}
+.checkup-hero h1 span { color: #c99061; }
+.studio-page.checkup-page .checkup-hero .checkup-lede {
+  margin: 0 0 28px;
+  max-width: 48ch;
+  font-size: 17px;
+  line-height: 1.8;
+}
+.studio-page.checkup-page a.checkup-hero-cta {
+  min-height: 56px;
+  padding: 16px 24px;
+  font-size: 13px;
+  letter-spacing: .035em;
+}
+.studio-page.checkup-page .checkup-hero .checkup-hero-note {
+  margin: 14px 0 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #c7bfb0;
+}
+.checkup-hero-image {
+  margin: 0;
+  border: 1px solid #665039;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #1b1c17;
+}
+.checkup-hero-image picture,.checkup-hero-image img { display: block; width: 100%; }
+.checkup-hero-image img { height: auto; }
+.checkup-hero-image figcaption {
+  padding: 12px 18px;
+  border-top: 1px solid #51402e;
+  color: #d0b292;
+  font-size: 11px;
+  letter-spacing: .04em;
+}
+.studio-page.checkup-page .checkup-coverage { background: #141410; padding: 0 0 48px; }
+.studio-page.checkup-page .checkup-coverage .checkup-points { margin: 0; gap: 20px; }
+.studio-page.checkup-page .checkup-coverage .checkup-point { padding: 24px; }
+@media (max-width: 1050px) {
+  .studio-page.checkup-page .checkup-hero-layout { gap: 30px; }
+}
+@media (max-width: 760px) {
+  .studio-page.checkup-page .checkup-hero { padding: 32px 0; }
+  .studio-page.checkup-page .checkup-hero-layout { grid-template-columns: minmax(0,1fr); gap: 28px; }
+  .checkup-page .checkup-hero .checkup-kicker { margin-bottom: 16px; font-size: 10px; }
+  .studio-page.checkup-page .checkup-hero h1 { font-size: clamp(34px,8.7vw,48px); margin-bottom: 20px; }
+  .studio-page.checkup-page .checkup-hero .checkup-lede { font-size: 16px; line-height: 1.75; margin-bottom: 24px; }
+  .studio-page.checkup-page a.checkup-hero-cta { width: 100%; }
+  .checkup-hero-image { border-radius: 18px; }
+  .checkup-hero-image figcaption { padding: 11px 14px; font-size: 10px; }
+  .studio-page.checkup-page .checkup-coverage { padding-bottom: 32px; }
+  .studio-page.checkup-page .checkup-coverage .checkup-points { gap: 14px; }
+  .studio-page.checkup-page .checkup-coverage .checkup-point { padding: 20px; }
+}
+
+/* Use the supplied illustration without repeating its poster heading and URL.
+   The full source is preserved; this viewport shows y=610 through y=1405. */
+.checkup-diagnostic-art { background: #11120e; border-color: #59432e; box-shadow: 0 18px 50px #0003; }
+.checkup-art-window { position: relative; aspect-ratio: 864 / 795; overflow: hidden; }
+.checkup-art-window img { position: absolute; inset: 0 auto auto 0; width: 100%; height: auto; transform: translateY(-39.7135417%); }
+.studio-page.checkup-page .checkup-hero h1 { font-size: clamp(46px,5.4vw,74px); max-width: 14ch; line-height: 1.05; }
+@media (max-width: 1050px) and (min-width: 761px) {
+  .studio-page.checkup-page .checkup-hero-layout { gap: 28px; }
+  .studio-page.checkup-page .checkup-hero h1 { font-size: 48px; }
+}
+@media (max-width: 760px) {
+  .studio-page.checkup-page .checkup-hero h1 { font-size: clamp(43px,12vw,62px); margin-bottom: 20px; }
+}
