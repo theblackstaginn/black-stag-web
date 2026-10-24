@@ -295,6 +295,15 @@
   </style>
   <link rel="stylesheet" href="/site-facelift.css?v=20261023b" />
   <link rel="stylesheet" href="/checkup-hero.css?v=20261023" />
+  <!-- Google tag: Google Ads -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18534665148"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-18534665148');
+  </script>
+
 </head>
 
 <body class="checkup-page studio-page inner-page">
@@ -469,7 +478,7 @@
                 <input id="consent" name="consent_to_contact" type="checkbox" required />
                 <span>I agree that Black Stag Web Design may contact me about this website checkup request.</span>
               </label>
-              <p class="field-help checkup-privacy-note">We use your details to respond to this request. Read our <a href="/privacy.html">Privacy &amp; Tracking Notice</a> for details about form data and Meta measurement.</p>
+              <p class="field-help checkup-privacy-note">We use your details to respond to this request. Read our <a href="/privacy.html">Privacy &amp; Tracking Notice</a> for details about form data and Google/Meta measurement.</p>
 
               <div class="form-actions">
                 <button id="submitButton" class="btn btn-primary" type="submit">Send request</button>
@@ -592,6 +601,18 @@
           status.textContent = result.message || "Thanks. Your request is in.";
           status.classList.add("is-success");
           button.textContent = "Request sent";
+
+          // Count only accepted requests; never include contact details in ad events.
+          // Tracking failures must not turn a successful request into a form error.
+          try {
+            if (typeof window.gtag === "function") {
+              window.gtag("event", "conversion", {
+                send_to: "AW-18534665148/DZbpCIHJr6gdELyXgoZF",
+              });
+            }
+          } catch (trackingError) {
+            // The request was accepted even if advertising measurement is unavailable.
+          }
 
           // Conversion signal only. Never send form fields or contact details to Meta.
           if (typeof window.fbq === "function") {
