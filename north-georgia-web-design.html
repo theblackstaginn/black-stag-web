@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>North Georgia Small Business Web Design | Black Stag</title>
-  <meta name="description" content="Custom web design for small businesses across North Georgia. Flat fees, no subscriptions, and you own the site when it’s done." />
+  <title>North Georgia Web Design | Custom Sites by Black Stag</title>
+  <meta name="description" content="Custom North Georgia web design from Cleveland, GA. Explore real local projects, clear pricing, and websites you own. Start with a free website checkup." />
 
   <!-- Canonical -->
   <link rel="canonical" href="https://blackstagweb.com/north-georgia-web-design.html" />
@@ -15,26 +15,26 @@
 
   <!-- Open Graph -->
   <meta property="og:site_name" content="Black Stag Web Design" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="North Georgia Small Business Web Design" />
-  <meta property="og:description" content="Mobile-first websites that make the phone ring. Flat fees, no subscriptions, and you own the site when it’s done." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="North Georgia Web Design | Custom Sites by Black Stag" />
+  <meta property="og:description" content="Custom North Georgia web design from Cleveland, GA. Explore real local projects, clear pricing, and websites you own. Start with a free website checkup." />
   <meta property="og:url" content="https://blackstagweb.com/north-georgia-web-design.html" />
 
   <!-- Share image (use BSW logo or a relevant example, not BSI) -->
   <meta property="og:image" content="https://blackstagweb.com/stag-studio/spw-web.png" />
-  <meta property="og:image:alt" content="Example website build by Black Stag Web Design" />
+  <meta property="og:image:alt" content="Southern Pressure Washing website built by Black Stag Web Design" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="North Georgia Small Business Web Design" />
-  <meta name="twitter:description" content="Mobile-first websites that make the phone ring. Flat fees, no subscriptions, and you own the site when it’s done." />
+  <meta name="twitter:title" content="North Georgia Web Design | Custom Sites by Black Stag" />
+  <meta name="twitter:description" content="Custom North Georgia web design from Cleveland, GA. Explore real local projects, clear pricing, and websites you own. Start with a free website checkup." />
   <meta name="twitter:image" content="https://blackstagweb.com/stag-studio/spw-web.png" />
-  <meta name="twitter:image:alt" content="Example website build by Black Stag Web Design" />
+  <meta name="twitter:image:alt" content="Southern Pressure Washing website built by Black Stag Web Design" />
 
   <!-- Performance hints -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&amp;display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css?v=2" />
 
   <!-- Structured Data: Entity graph + WebPage + Service -->
@@ -58,10 +58,17 @@
       },
       "areaServed": [
         { "@type": "AdministrativeArea", "name": "North Georgia" },
-        { "@type": "State", "name": "Georgia" }
+        { "@type": "State", "name": "Georgia" },
+        { "@type": "State", "name": "Tennessee" },
+        { "@type": "State", "name": "North Carolina" },
+        { "@type": "State", "name": "South Carolina" },
+        { "@type": "State", "name": "Alabama" },
+        { "@type": "State", "name": "Florida" }
       ],
       "sameAs": [
-        "https://instagram.com/blackstagstudio"
+        "https://instagram.com/blackstagstudio",
+        "https://www.facebook.com/profile.php?id=61588347274823",
+        "https://maps.google.com/maps?cid=11266189252999568262"
       ],
       "contactPoint": [
         {
@@ -85,10 +92,11 @@
       "@type": "WebPage",
       "@id": "https://blackstagweb.com/north-georgia-web-design.html#webpage",
       "url": "https://blackstagweb.com/north-georgia-web-design.html",
-      "name": "North Georgia Small Business Web Design",
-      "description": "Custom web design for small businesses across North Georgia. Flat fees, no subscriptions, and you own the site when it’s done.",
+      "name": "North Georgia Web Design | Custom Sites by Black Stag",
+      "description": "Custom North Georgia web design from Cleveland, GA. Explore real local projects, clear pricing, and websites you own. Start with a free website checkup.",
       "isPartOf": { "@id": "https://blackstagweb.com/#website" },
       "about": { "@id": "https://blackstagweb.com/#business" },
+      "breadcrumb": { "@id": "https://blackstagweb.com/north-georgia-web-design.html#breadcrumbs" },
       "primaryImageOfPage": {
         "@type": "ImageObject",
         "url": "https://blackstagweb.com/stag-studio/spw-web.png"
@@ -102,7 +110,12 @@
       "provider": { "@id": "https://blackstagweb.com/#business" },
       "areaServed": [
         { "@type": "AdministrativeArea", "name": "North Georgia" },
-        { "@type": "State", "name": "Georgia" }
+        { "@type": "State", "name": "Georgia" },
+        { "@type": "State", "name": "Tennessee" },
+        { "@type": "State", "name": "North Carolina" },
+        { "@type": "State", "name": "South Carolina" },
+        { "@type": "State", "name": "Alabama" },
+        { "@type": "State", "name": "Florida" }
       ]
     }
   ]
@@ -140,6 +153,13 @@
       background:#10151d; color:#f3f0ea; z-index:9999; border-radius:10px;
       outline:2px solid rgba(217,178,107,.65);
     }
+    .regional-proof-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:28px; margin-top:28px; }
+    .regional-proof-grid article { min-width:0; }
+    .regional-proof-grid figure { margin:0 0 18px; }
+    .regional-proof-grid img { display:block; width:100%; height:auto; border:1px solid #b8997c; border-radius:10px; }
+    .regional-proof-grid figcaption { margin-top:8px; font-size:13px; color:#625747; }
+    .regional-proof-grid h3 { margin:0 0 12px; }
+    @media (max-width:760px) { .regional-proof-grid { grid-template-columns:minmax(0,1fr); gap:30px; } }
   </style>
   <!-- Black Stag Web Design: portfolio-owned Meta Pixel -->
   <script src="/bsw-meta-pixel.js?v=20261016" defer></script>
@@ -174,164 +194,145 @@
     <section class="hero" id="top">
       <div class="wrap hero-inner">
         <div class="hero-copy">
-          <h1>Web design for North Georgia small businesses.</h1>
+          <h1>North Georgia web design for small businesses.</h1>
           <p>
-            Small businesses in North Georgia don’t need another software subscription.
-            They need websites that make the phone ring. I build fast, mobile-first sites
-            for local companies across the region. No monthly website fees, no hostage situations.
-            You own the site when it’s done.
+            I’m based in Cleveland, Georgia, and build custom websites for independent businesses
+            across the mountains and foothills. From a deli menu to a contractor’s quote request,
+            the site should help customers understand your business and take the next step on their phone.
+          </p>
+          <p>
+            You work directly with the person building your site. Get clear project pricing,
+            mobile-first design, and ownership of your domain, hosting, and website files.
+            No required website subscription.
           </p>
           <div class="hero-actions">
-            <a href="/#work" class="btn">See live examples</a>
-            <a href="mailto:blackstagwebdesign@gmail.com?subject=North%20Georgia%20Website%20Project" class="btn">
-              Email about a project
-            </a>
+            <a href="/website-checkup.html" class="btn">Get a free website checkup</a>
+            <a href="#local-work" class="btn">Explore North Georgia projects</a>
             <a href="tel:17067250972" class="btn">Call / text: (706) 725-0972</a>
           </div>
-          <p class="hero-tagline">
-            Serving North Georgia • Flat fees • No subscriptions • You own your site.
-          </p>
+          <p class="hero-tagline">Based in Cleveland · Serving North Georgia · Websites you own</p>
         </div>
       </div>
     </section>
 
-    <!-- WHO I BUILD FOR -->
-    <section class="section">
+    <section class="section" id="local-work" aria-labelledby="local-work-heading">
       <div class="wrap">
-        <h2>Built for real small businesses, not tech experiments.</h2>
+        <h2 id="local-work-heading">Real websites for North Georgia businesses.</h2>
         <p class="section-intro">
-          If you sell food, services, appointments, retail, or trades, this is for you.
-          I build for the people keeping North Georgia running.
+          These are existing builds with different jobs to do. See the actual website screenshots
+          and read how each project was shaped around its customers.
         </p>
-        <p>
-          Common clients include:
-        </p>
-        <ul>
-          <li>Restaurants and food trucks</li>
-          <li>Tattoo and piercing studios</li>
-          <li>Hair, esthetics, salons, and barbers</li>
-          <li>Contractors and skilled trades</li>
-          <li>Landscaping and pressure washing</li>
-          <li>Boutiques and specialty retail</li>
-          <li>Mechanics and automotive</li>
-          <li>Local service businesses of all kinds</li>
-        </ul>
+        <div class="regional-proof-grid">
+          <article>
+            <figure>
+              <img src="/stag-studio/spw-web.png" width="1339" height="596" loading="lazy" decoding="async" alt="Southern Pressure Washing website showing its exterior cleaning services." />
+              <figcaption>Actual Southern Pressure Washing website.</figcaption>
+            </figure>
+            <h3>Southern Pressure Washing</h3>
+            <p>A North Georgia contractor site with service-area information, before-and-after galleries, and an estimate-request path.</p>
+            <p><a href="/southern-pressure-washing-case-study.html">See the pressure washing website case study</a>.</p>
+          </article>
+          <article>
+            <figure>
+              <img src="/stag-studio/IMG_9966.jpeg" width="2181" height="894" loading="lazy" decoding="async" alt="Cavalier Country Farm website introducing the Cleveland, Georgia family farm." />
+              <figcaption>Actual Cavalier Country Farm website.</figcaption>
+            </figure>
+            <h3>Cavalier Country Farm</h3>
+            <p>A Cleveland family farm site connecting Cavaliers, farm experiences, and photography information with the farm’s existing application tools.</p>
+            <p><a href="/cavalier-country-farm-case-study.html">Explore the Cleveland farm website case study</a>.</p>
+          </article>
+          <article>
+            <figure>
+              <img src="/stag-studio/leaf-web.png" width="1339" height="586" loading="lazy" decoding="async" alt="Leaf Grocery and Deli website with its menu and local business information." />
+              <figcaption>Actual Leaf Grocery &amp; Deli website.</figcaption>
+            </figure>
+            <h3>Leaf Grocery &amp; Deli</h3>
+            <p>A White County grocery and deli site with a readable menu, hours, directions, and tap-to-call ordering.</p>
+            <p><a href="/leaf-case-study.html">Read the Leaf Grocery &amp; Deli website case study</a>.</p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <!-- WHAT YOU GET -->
     <section class="section">
       <div class="wrap">
-        <h2>What you actually get when we work together.</h2>
+        <h2>Built around the way your business works.</h2>
         <p class="section-intro">
-          No gimmicks, no dashboards you’ll never log into. Just a site that works on phones and gets people to you.
+          Customers should be able to find your services, menu, location, or application without digging.
+          The right structure depends on what they need to do next.
         </p>
         <ul>
-          <li>A mobile-first website that loads on weak cell signal</li>
-          <li>Tap-to-call and tap-for-directions for Google Maps</li>
-          <li>Menus, photo galleries, service lists, and booking links</li>
-          <li>
-            Optional tap-to-order buttons that route to your existing
-            Square, Wix, or Squarespace checkout
-          </li>
-          <li>Custom-coded, no templates you’re locked into</li>
-          <li>You own the accounts, domain, and files. I’m just the mechanic.</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- PRICING -->
-    <section class="section">
-      <div class="wrap">
-        <h2>Simple, flat pricing for small businesses.</h2>
-        <p class="section-intro">
-          Most projects land between <strong>$250 and $2,500</strong>, depending on scope.
-          You pay once, you own the site, and updates are billed only when you need them.
-        </p>
-        <p>
-          Typical ranges:
-        </p>
-        <ul>
-          <li>Single-page builds: roughly $250–$600</li>
-          <li>Multi-page builds with galleries, menus, and FAQ: roughly $1,000–$2,500</li>
+          <li><a href="/contractors-trades.html">Contractor and trades websites</a> with services, project proof, service areas, and quote requests.</li>
+          <li><a href="/restaurants-food-trucks.html">Restaurant and food-truck websites</a> with readable menus, hours, directions, and ordering links.</li>
+          <li><a href="/dog-breeder-website-design.html">Dog breeder and kennel websites</a> with puppy information and clear application paths.</li>
+          <li><a href="/salons-tattoo.html">Salon and tattoo studio websites</a> with portfolios, contact details, and booking links.</li>
+          <li>Sites for farms, makers, shops, and independent service businesses.</li>
         </ul>
         <p>
-          No management retainers and no surprise bills just to keep your name on the internet.
+          Every build starts with mobile navigation, clear customer actions, and search foundations such as
+          descriptive page titles, headings, and internal links. Existing checkout, booking, or application
+          tools can stay connected where they already work well.
         </p>
       </div>
     </section>
 
-    <!-- SERVICE AREA -->
     <section class="section">
       <div class="wrap">
-        <h2>North Georgia service area.</h2>
-        <p class="section-intro">
-          I serve small businesses across the North Georgia mountain and foothill region.
-        </p>
-        <p>
-          If you’re in North Georgia, we can work together. The build process works just as well over text,
-          email, and photos as it does in person.
-        </p>
-      </div>
-            <p style="margin-top:.9rem;">
-          Local pages:
-          <a href="/cleveland-ga-web-design.html">Cleveland, GA web design</a>
-          &nbsp;|&nbsp;
-          <a href="/clarkesville-ga-web-design.html">Clarkesville &amp; Habersham County web design</a>
-        </p>
-</section>
-
-    <!-- OWNERSHIP PITCH -->
-    <section class="section">
-      <div class="wrap">
-        <h2>Why website ownership matters out here.</h2>
-        <p class="section-intro">
-          Most small businesses do not own their websites. They rent them.
-        </p>
-        <p>
-          Usually that looks like:
-        </p>
+        <h2>Clear pricing. A website you own.</h2>
+        <p class="section-intro">We agree on the scope and quote before work begins.</p>
         <ul>
-          <li>Facebook doing all the heavy lifting</li>
-          <li>Wix and Squarespace sites that disappear if you stop paying</li>
-          <li>Free sites tied to hosting contracts</li>
-          <li>Agency retainers where you never see the files</li>
+          <li>One-page builds: <strong>$250–$600</strong>.</li>
+          <li>Multi-page builds of up to five pages: <strong>$1,000–$2,500</strong>.</li>
         </ul>
         <p>
-          That works until it doesn’t. When you own your site:
+          A 50% deposit books the project; the remaining 50% is due at launch.
+          Post-launch updates are available at $60/hr when you need them.
+          Domain renewals, hosting, and any services you choose remain in your control.
         </p>
-        <ul>
-          <li>Your site stays online even if you change providers</li>
-          <li>You control your domain and logins</li>
-          <li>You can sell the business with the website included</li>
-          <li>Nobody can shut down your digital storefront over a billing dispute</li>
-        </ul>
         <p>
-          If you want the deeper breakdown, the <a href="/ownership.html">Ownership vs Rental</a> &nbsp;|&nbsp; <a href="/dog-breeder-website-design.html">Dog breeder &amp; kennel web design</a> page walks through it.
+          You receive the website files and control the accounts, so you can change hosting or developers
+          without starting over. Read the <a href="/ownership.html">website ownership and hosting guide</a>
+          for the details.
         </p>
       </div>
     </section>
 
-    <!-- AUDIT CTA -->
+    <section class="section" id="service-area">
+      <div class="wrap">
+        <h2>Serving Cleveland, Dahlonega, Clarkesville, and nearby communities.</h2>
+        <p class="section-intro">
+          Black Stag’s home base is Cleveland in White County. I work with businesses in Dahlonega
+          and Lumpkin County, Clarkesville and Habersham County, Cornelia, Demorest, Helen, Clermont,
+          and the surrounding North Georgia mountain and foothill communities.
+        </p>
+        <p>
+          Explore local projects and services on the <a href="/cleveland-ga-web-design.html">Cleveland and White County web design page</a>
+          or the <a href="/clarkesville-ga-web-design.html">Clarkesville and Habersham County web design page</a>.
+        </p>
+        <h3>Outside North Georgia? We can work remotely.</h3>
+        <p>
+          I also welcome projects throughout Georgia, Tennessee, North Carolina, South Carolina, Alabama,
+          and Florida. We can share the brief, photos, and feedback by email or phone, review the site on
+          desktop and mobile, and launch it on accounts you control. You get the same direct contact and
+          ownership wherever your business is based.
+        </p>
+      </div>
+    </section>
+
     <section class="section" id="audit">
       <div class="wrap">
-        <h2>Free website ownership audit for North Georgia businesses.</h2>
+        <h2>Start with a free website checkup.</h2>
         <p class="section-intro">
-          Not sure if you’re actually owning your site, or just renting it from a platform?
-          Send me your current website or Facebook page. I’ll tell you what you’re on,
-          what you’re paying for, and what’s worth fixing.
+          Send your current website or social page. I’ll take a practical look at mobile clarity,
+          customer actions, and ownership, then explain what is worth keeping or fixing before you spend.
+          If you need a new site, tell me about the business you’re starting.
         </p>
         <div class="hero-actions">
-          <a href="mailto:blackstagwebdesign@gmail.com?subject=North%20Georgia%20Website%20Ownership%20Audit" class="btn">
-            Email me for an audit
-          </a>
-          <a href="tel:17067250972" class="btn">
-            Call / text: (706) 725-0972
-          </a>
+          <a href="/website-checkup.html" class="btn">Get a free website checkup</a>
+          <a href="tel:17067250972" class="btn">Call / text: (706) 725-0972</a>
         </div>
-        <p class="hero-tagline">
-          No pressure, no upsell. If what you have is fine, I’ll say so.
-        </p>
+        <p class="hero-tagline">Free. No obligation. Just honest feedback.</p>
+        <p>Prefer email? <a href="mailto:blackstagwebdesign@gmail.com">blackstagwebdesign@gmail.com</a>.</p>
       </div>
     </section>
 
