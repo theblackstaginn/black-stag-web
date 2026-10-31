@@ -18,6 +18,7 @@
     host.appendChild(holder);
     const trigger = holder.querySelector("button");
 
+    const refreshToken = new URLSearchParams(window.location.search).get("_cb");
     const modal = document.createElement("div");
     modal.className = "bsw-beacon-modal";
     modal.id = "bsw-runic-beacon-dialog";
@@ -29,7 +30,7 @@
       '<button type="button" class="bsw-beacon-close" aria-label="Close the intention">×</button>' +
       '<img class="bsw-beacon-parchment" src="/assets/bswd-runic-beacon-digital-intention.webp" ' +
       'alt="Charcoal and copper digital plaque with three runes, fine circuit lines and a stag emblem, expressing honest craft, trust and prosperity for independent businesses.">' +
-      '<p id="bsw-beacon-intention" class="bsw-beacon-visually-hidden">May those who seek what we create ' +
+      '<p id="bsw-beacon-intention" class="bsw-beacon-visually-hidden">May those who value honest craft ' +
       'find their way here. May every partnership be built on trust and fair exchange. ' +
       'May our work help independent businesses prosper.</p>' +
       '<div class="bsw-beacon-fallback" hidden>' +
@@ -40,6 +41,13 @@
       '</div><div class="bsw-beacon-sparks" aria-hidden="true"></div>' +
       '</section>';
     document.body.appendChild(modal);
+    if (refreshToken) {
+      const artwork = modal.querySelector(".bsw-beacon-parchment");
+      const artworkUrl = new URL(artwork.getAttribute("src"), window.location.origin);
+      artworkUrl.searchParams.set("_cb", refreshToken);
+      artwork.src = artworkUrl.href;
+    }
+
 
     const scrim = modal.querySelector(".bsw-beacon-scrim");
     const card = modal.querySelector(".bsw-beacon-card");
