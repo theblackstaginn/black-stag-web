@@ -26,17 +26,17 @@
       '<div class="bsw-beacon-scrim"></div>' +
       '<section class="bsw-beacon-card" role="dialog" aria-modal="true" ' +
       'aria-label="A maker’s intention" aria-describedby="bsw-beacon-intention">' +
-      '<button type="button" class="bsw-beacon-close" aria-label="Close the parchment">×</button>' +
-      '<img class="bsw-beacon-parchment" src="/assets/bswd-runic-beacon-intention.webp" ' +
-      'alt="Aged parchment bearing three copper runes and a blessing of fair exchange and fruitful work.">' +
-      '<p id="bsw-beacon-intention" class="bsw-beacon-visually-hidden">May those who seek what we create ' +
-      'find their way here. May every exchange be fair and freely chosen. ' +
-      'May our work bring abundance to maker and patron alike.</p>' +
+      '<button type="button" class="bsw-beacon-close" aria-label="Close the Runic Beacon">×</button>' +
+      '<img class="bsw-beacon-parchment" src="/assets/bswd-runic-beacon-digital-intention.webp" ' +
+      'alt="Charcoal and copper digital plaque featuring three runes, a stag emblem, and an intention for honest craft, trusted partnerships and independent businesses.">' +
+      '<p id="bsw-beacon-intention" class="bsw-beacon-visually-hidden">May those who value honest craft ' +
+      'find their way here. May every partnership be built on trust and fair exchange. ' +
+      'May our work help independent businesses prosper.</p>' +
       '<div class="bsw-beacon-fallback" hidden>' +
       '<p class="bsw-beacon-fallback-runes">ᚠ ᚷ ᛃ</p>' +
-      '<p>May those who seek what we create find their way here.</p>' +
-      '<p>May every exchange be fair and freely chosen.</p>' +
-      '<p>May our work bring abundance to maker and patron alike.</p>' +
+      '<p>May those who value honest craft find their way here.</p>' +
+      '<p>May every partnership be built on trust and fair exchange.</p>' +
+      '<p>May our work help independent businesses prosper.</p>' +
       '</div><div class="bsw-beacon-sparks" aria-hidden="true"></div>' +
       '</section>';
     document.body.appendChild(modal);

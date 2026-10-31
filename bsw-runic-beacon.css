@@ -100,15 +100,16 @@
   box-sizing: border-box;
   padding: 40px 30px;
   text-align: center;
-  color: #342014;
-  background: #dfbf90;
-  border-radius: 11px;
-  font: italic clamp(15px, 2vw, 22px)/1.5 Georgia, serif;
+  color: #f5eee5;
+  background: linear-gradient(150deg, #19191a, #0b0d0f);
+  border: 1px solid rgba(217,178,107,.65);
+  border-radius: 14px;
+  font: clamp(15px, 2vw, 22px)/1.5 Georgia, serif;
   box-shadow: 0 18px 55px rgba(0,0,0,.35);
 }
 .bsw-beacon-fallback-runes {
   font-size: 36px;
-  color: #a05d31;
+  color: #d9a578;
   letter-spacing: .2em;
 }
 .bsw-beacon-sparks { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
