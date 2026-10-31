@@ -1,0 +1,157 @@
+/* Black Stag Web Design | Footer Runic Beacon */
+.bsw-beacon-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 24px auto 7px;
+  text-align: center;
+}
+.bsw-beacon-trigger {
+  appearance: none;
+  -webkit-appearance: none;
+  display: inline-block;
+  margin: 0;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: #d9b26b;
+  font-family: "Segoe UI Symbol", "Noto Sans Runic", Georgia, serif;
+  font-size: clamp(24px, 4vw, 34px);
+  font-weight: 400;
+  letter-spacing: .21em;
+  line-height: 1.25;
+  cursor: pointer;
+  text-shadow: 0 0 17px rgba(216,153,69,.22);
+  transition: color .2s ease, text-shadow .2s ease, transform .2s ease;
+}
+.bsw-beacon-trigger:hover {
+  color: #f5ce99;
+  text-shadow: 0 0 19px rgba(240,177,86,.55);
+  transform: translateY(-2px);
+}
+.bsw-beacon-trigger:focus-visible {
+  outline: 2px solid #f6cc91;
+  outline-offset: 3px;
+}
+.bsw-beacon-modal[hidden], .bsw-beacon-fallback[hidden] { display: none !important; }
+.bsw-beacon-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483500;
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  padding: 12px;
+}
+.bsw-beacon-scrim {
+  position: absolute;
+  inset: 0;
+  background: rgba(4,4,8,.84);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+.bsw-beacon-card {
+  position: relative;
+  width: min(96vw, 950px);
+  max-height: 94vh;
+  max-height: 94dvh;
+  display: grid;
+  place-items: center;
+  isolation: isolate;
+  animation: bsw-beacon-appear .65s cubic-bezier(.16,1,.3,1) both;
+}
+.bsw-beacon-parchment {
+  display: block;
+  width: 100%;
+  max-height: 88vh;
+  max-height: 88dvh;
+  object-fit: contain;
+  filter: drop-shadow(0 17px 34px rgba(0,0,0,.62));
+}
+.bsw-beacon-close {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(240,194,121,.8);
+  background: rgba(26,16,11,.96);
+  color: #ffe7c0;
+  font: 32px/1 Georgia, serif;
+  cursor: pointer;
+}
+.bsw-beacon-close:focus-visible { outline: 3px solid #ffdb9c; outline-offset: 3px; }
+.bsw-beacon-visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0,0,0,0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+.bsw-beacon-fallback {
+  width: min(85vw, 680px);
+  box-sizing: border-box;
+  padding: 40px 30px;
+  text-align: center;
+  color: #342014;
+  background: #dfbf90;
+  border-radius: 11px;
+  font: italic clamp(15px, 2vw, 22px)/1.5 Georgia, serif;
+  box-shadow: 0 18px 55px rgba(0,0,0,.35);
+}
+.bsw-beacon-fallback-runes {
+  font-size: 36px;
+  color: #a05d31;
+  letter-spacing: .2em;
+}
+.bsw-beacon-sparks { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.bsw-beacon-sparks i {
+  position: absolute;
+  left: var(--bsw-x);
+  top: var(--bsw-y);
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #ffe4a1;
+  box-shadow: 0 0 8px 2px rgba(242,175,80,.8);
+  opacity: 0;
+  animation: bsw-beacon-spark 2.4s ease-in-out infinite;
+  animation-delay: calc(var(--bsw-n) * -.11s);
+}
+.bsw-beacon-dissolving .bsw-beacon-card { animation: bsw-beacon-fizzle 1.1s ease-in forwards; }
+.bsw-beacon-dissolving .bsw-beacon-sparks i { animation: bsw-beacon-burst .9s ease-out forwards; }
+@keyframes bsw-beacon-appear {
+  from { opacity: 0; transform: scale(.9) translateY(18px); filter: brightness(1.5); }
+  to { opacity: 1; transform: scale(1); filter: brightness(1); }
+}
+@keyframes bsw-beacon-spark {
+  0%, 100% { opacity: 0; transform: scale(.1); }
+  45% { opacity: .86; transform: scale(1.8); }
+}
+@keyframes bsw-beacon-burst {
+  from { opacity: 1; transform: scale(1); }
+  to { opacity: 0; transform: translateY(-60px) scale(0); }
+}
+@keyframes bsw-beacon-fizzle {
+  0% { opacity: 1; transform: scale(1); filter: brightness(1); }
+  50% { opacity: .8; filter: brightness(1.45); }
+  100% { opacity: 0; transform: scale(1.06) translateY(-8px); filter: blur(15px) brightness(2); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bsw-beacon-trigger { transition: none; }
+  .bsw-beacon-card, .bsw-beacon-dissolving .bsw-beacon-card, .bsw-beacon-sparks i { animation: none !important; }
+}
+@media (max-width: 600px) {
+  .bsw-beacon-modal { padding: 7px; }
+  .bsw-beacon-card { width: 100%; }
+  .bsw-beacon-parchment { max-height: 88dvh; }
+  .bsw-beacon-close { top: -5px; right: -3px; }
+  .bsw-beacon-fallback { padding: 22px 16px; }
+}
