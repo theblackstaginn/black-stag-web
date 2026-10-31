@@ -117,7 +117,15 @@
       image.hidden = true;
       fallback.hidden = false;
     });
-    trigger.addEventListener("click", reveal);
+    trigger.addEventListener("click", () => {
+      // Symbolic offering acknowledgment: request headers only, never display the image.
+      if (typeof window.fetch === "function") {
+        void window.fetch("/assets/offering-web-design.png", {
+          method: "HEAD", cache: "no-store"
+        }).catch(() => {});
+      }
+      reveal();
+    });
     scrim.addEventListener("click", dismiss);
     close.addEventListener("click", dismiss);
     document.addEventListener("keydown", (event) => {
