@@ -1,0 +1,147 @@
+/* Black Stag Web Design | a single copper rune inscription in each site footer */
+.site-footer .bsw-beacon-footer-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 22px;
+  text-align: center;
+}
+.site-footer .bsw-beacon-trigger {
+  display: inline-block;
+  padding: 8px 19px;
+  background: transparent;
+  border: 0;
+  border-radius: 8px;
+  color: #d9b26b;
+  cursor: pointer;
+  font-family: "Segoe UI Symbol", "Noto Sans Runic", "Georgia", serif;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.3;
+  letter-spacing: .22em;
+  text-shadow: 0 0 12px rgba(217, 178, 107, .20);
+  transition: color .2s ease, text-shadow .2s ease, transform .2s ease;
+}
+.site-footer .bsw-beacon-trigger:hover {
+  color: #f1d0a0;
+  text-shadow: 0 0 18px rgba(217, 178, 107, .46);
+  transform: translateY(-2px);
+}
+.site-footer .bsw-beacon-trigger:focus-visible,
+.bsw-beacon-close:focus-visible {
+  outline: 2px solid #f0cd8b;
+  outline-offset: 4px;
+}
+.bsw-beacon-overlay[hidden], .bsw-beacon-fallback[hidden], .bsw-beacon-art[hidden] {
+  display: none !important;
+}
+.bsw-beacon-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483500;
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  padding: 14px;
+}
+.bsw-beacon-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 6, 9, .84);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+.bsw-beacon-panel {
+  position: relative;
+  width: min(96vw, 970px);
+  max-height: 94dvh;
+  display: grid;
+  place-items: center;
+  animation: bsw-beacon-appear .65s cubic-bezier(.16,1,.3,1) both;
+}
+.bsw-beacon-art {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 88dvh;
+  object-fit: contain;
+  filter: drop-shadow(0 16px 28px rgba(0, 0, 0, .60));
+}
+.bsw-beacon-fallback {
+  padding: 35px 22px;
+  border: 1px solid #ae8057;
+  border-radius: 13px;
+  background: #ebcf9c;
+  color: #3e2415;
+  font-family: Georgia, serif;
+  font-size: clamp(16px, 2.4vw, 23px);
+  line-height: 1.8;
+  text-align: center;
+}
+.bsw-beacon-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 4;
+  width: 43px;
+  height: 43px;
+  border: 1px solid rgba(239, 192, 129, .85);
+  border-radius: 50%;
+  background: rgba(30, 19, 11, .95);
+  color: #ffe7be;
+  font-family: Georgia, serif;
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
+}
+.bsw-beacon-sparks {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.bsw-beacon-sparks i {
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #ffe3aa;
+  box-shadow: 0 0 8px 3px rgba(233, 178, 96, .75);
+  opacity: 0;
+  animation: bsw-beacon-twinkle 2.4s ease-in-out infinite;
+  animation-delay: var(--delay);
+}
+.bsw-beacon-vanishing .bsw-beacon-panel {
+  animation: bsw-beacon-fizzle 1.1s ease-in forwards;
+}
+.bsw-beacon-vanishing .bsw-beacon-sparks i {
+  animation: bsw-beacon-burst .9s ease-out forwards;
+}
+@keyframes bsw-beacon-appear {
+  from { opacity: 0; transform: scale(.90) translateY(15px); filter: brightness(1.5); }
+  to { opacity: 1; transform: scale(1) translateY(0); filter: brightness(1); }
+}
+@keyframes bsw-beacon-twinkle {
+  0%, 100% { opacity: 0; transform: scale(.1); }
+  45% { opacity: .88; transform: scale(1.8); }
+}
+@keyframes bsw-beacon-fizzle {
+  0% { opacity: 1; transform: scale(1); filter: brightness(1); }
+  50% { opacity: .85; filter: brightness(1.6); }
+  100% { opacity: 0; transform: scale(1.06) translateY(-8px); filter: blur(16px) brightness(2); }
+}
+@keyframes bsw-beacon-burst {
+  from { opacity: 1; transform: scale(1); }
+  to { opacity: 0; transform: translateY(-58px) scale(0); }
+}
+@media (max-width: 600px) {
+  .bsw-beacon-overlay { padding: 7px; }
+  .bsw-beacon-panel { width: 100%; }
+  .bsw-beacon-art { max-height: 89dvh; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-footer .bsw-beacon-trigger { transition: none; }
+  .bsw-beacon-panel, .bsw-beacon-vanishing .bsw-beacon-panel,
+  .bsw-beacon-sparks i { animation: none !important; }
+}
