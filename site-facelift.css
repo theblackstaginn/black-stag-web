@@ -255,3 +255,27 @@ body.studio-page {
   .studio-page.home .project-links a { flex: 1 1 auto; }
   .home .hero-visual { border-radius: 18px 18px 0 0; overflow: hidden; }
 }
+
+/* Approved ivory paper cards; fixed corner slices preserve curls at any card height. */
+.home #services .offer-card {
+  position: relative;
+  isolation: isolate;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  padding: 40px 44px 48px;
+  box-shadow: none;
+}
+.home #services .offer-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border: 48px solid transparent;
+  border-image: url('/assets/bswd-ivory-parchment-card.webp') 210 230 210 220 fill stretch;
+  pointer-events: none;
+}
+@media (max-width: 760px) {
+  .home #services .offer-card { padding: 36px 30px 44px; }
+  .home #services .offer-card::before { border-width: 40px; }
+}
