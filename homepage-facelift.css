@@ -122,7 +122,7 @@ body.home {
 .home :is(section[id],main[id]) { scroll-margin-top: 112px; }
 
 /* A quiet transition from the workbench to the existing content. */
-.home #services { background: #eee6d7; padding: 64px 0; color: #312b24; }
+.home #services { background: #d6bd9a url('/assets/bswd-parchment-oat-tile.webp') repeat; background-size: 627px 627px; padding: 64px 0; color: #312b24; }
 .home #services :is(p,li) { color: #554c40; }
 .home #services h2 { font-family: Georgia, 'Times New Roman', serif; font-size: 32px; font-weight: 400; }
 .home #services .offer-card { background: #f7f1e7; border-color: #cfbda4; box-shadow: 0 8px 24px rgba(57,41,22,.06); }
