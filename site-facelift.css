@@ -76,7 +76,7 @@ body.studio-page {
 .resource-group h3 { font: 400 24px/1.25 Georgia,serif; margin: 0 0 20px; }
 .home #pages .link-list { display: block; margin: 0; }
 .home #pages .link-list li { margin: 0 0 12px; line-height: 1.6; font-size: 14px; }
-.home .home-questions { background: #eee6d7; color: #302a23; text-align: left; }
+.home .home-questions { background: #f1e4cb url('/assets/bswd-parchment-ivory-tile.webp') repeat; background-size: 627px 627px; color: #302a23; text-align: left; }
 .home-questions .section-kicker { color: #855129; }
 .question-list { max-width: 850px; margin: 28px 0; border-top: 1px solid #c7b79f; }
 .question-list details { border-bottom: 1px solid #c7b79f; }
