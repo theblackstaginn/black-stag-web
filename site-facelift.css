@@ -58,11 +58,11 @@ body.studio-page {
 .home #services br + br { display: none; }
 .home #services a { color: #80431e !important; border-color: #b8997c; }
 .service-note { margin: 20px 0 0; }
-.home .process-section { background: #e2d8c6; color: #312a22; text-align: left; border-top: 1px solid #c9b89f; }
+.home .process-section { background: #f1e4cb url('/assets/bswd-parchment-ivory-tile.webp') repeat; background-size: 627px 627px; color: #312a22; text-align: left; border-top: 1px solid #c9b89f; }
 .process-section .section-kicker { color: #855129; }
 .process-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 32px; counter-reset: steps; list-style: none; margin: 36px 0 0; padding: 0; }
 .process-grid li { counter-increment: steps; padding-top: 20px; border-top: 1px solid #b39b7d; }
-.process-grid li::before { content: '0' counter(steps); display: block; color: #8b572f; font: 400 32px/1 Georgia,serif; margin-bottom: 18px; }
+.process-grid li::before { content: counter(steps); display: block; color: #8b572f; font: 400 32px/1 Georgia,serif; margin-bottom: 18px; }
 .process-grid h3 { font: 400 23px/1.35 Georgia,serif; }
 .process-grid p { color: #554b3f; font-size: 15px; line-height: 1.8; }
 .process-grid a { color: #80431e !important; font-size: 13px; }
