@@ -279,3 +279,13 @@ body.studio-page {
   .home #services .offer-card { padding: 36px 30px 44px; }
   .home #services .offer-card::before { border-width: 40px; }
 }
+
+/* Matching parchment alternation, scoped to Ownership and FAQ. */
+.inner-page:is(.ownership-page,.faq-page) main > .section {
+  background: #d6bd9a url('/assets/bswd-parchment-oat-tile.webp') repeat;
+  background-size: 627px 627px;
+}
+.inner-page:is(.ownership-page,.faq-page) main > .section:nth-child(2n) {
+  background-color: #f1e4cb;
+  background-image: url('/assets/bswd-parchment-ivory-tile.webp');
+}
